@@ -1,0 +1,5795 @@
+{
+  "accounts": [
+    {
+      "code": "1",
+      "classification": "1",
+      "name": "ATIVO",
+      "source_row": 6
+    },
+    {
+      "code": "14",
+      "classification": "1.1",
+      "name": "ATIVO CIRCULANTE",
+      "source_row": 7
+    },
+    {
+      "code": "21",
+      "classification": "1.1.1",
+      "name": "DISPONÍVEL",
+      "source_row": 8
+    },
+    {
+      "code": "28",
+      "classification": "1.1.1.01",
+      "name": "CAIXA",
+      "source_row": 9
+    },
+    {
+      "code": "35",
+      "classification": "1.1.1.01.001",
+      "name": "CAIXA",
+      "source_row": 10
+    },
+    {
+      "code": "5978",
+      "classification": "1.1.1.01.001.001",
+      "name": "Caixa",
+      "source_row": 11
+    },
+    {
+      "code": "56",
+      "classification": "1.1.1.01.002",
+      "name": "NUMERÁRIOS EM TRANSITO",
+      "source_row": 12
+    },
+    {
+      "code": "21084",
+      "classification": "1.1.1.01.002.001",
+      "name": "Numerários em transito",
+      "source_row": 13
+    },
+    {
+      "code": "84",
+      "classification": "1.1.1.02",
+      "name": "BANCOS C/MOVIMENTO",
+      "source_row": 14
+    },
+    {
+      "code": "91",
+      "classification": "1.1.1.02.001",
+      "name": "BANCO DO BRASIL S/A",
+      "source_row": 15
+    },
+    {
+      "code": "98",
+      "classification": "1.1.1.02.001.001",
+      "name": "BB AG: 4767-8 C/C 50.293-6",
+      "source_row": 16
+    },
+    {
+      "code": "126",
+      "classification": "1.1.1.02.001.004",
+      "name": "BB AG: 4767-8 C/C 116318-3",
+      "source_row": 17
+    },
+    {
+      "code": "224",
+      "classification": "1.1.1.02.001.005",
+      "name": "BB AG: 4767-8 C/C 46.240-3",
+      "source_row": 18
+    },
+    {
+      "code": "273",
+      "classification": "1.1.1.02.001.006",
+      "name": "BB AG: 4767-8 C/C 64.231-2",
+      "source_row": 19
+    },
+    {
+      "code": "287",
+      "classification": "1.1.1.02.001.007",
+      "name": "BB AG: 4767-8 C/C 91.182-8",
+      "source_row": 20
+    },
+    {
+      "code": "294",
+      "classification": "1.1.1.02.001.002",
+      "name": "BB AG: 4767-8 C/C 93.716-9",
+      "source_row": 21
+    },
+    {
+      "code": "301",
+      "classification": "1.1.1.02.001.003",
+      "name": "BB AG: 4767-8 C/C 92.654-X",
+      "source_row": 22
+    },
+    {
+      "code": "308",
+      "classification": "1.1.1.02.001.008",
+      "name": "BB AG: 72-8 C/C 95.645-7 (CONVÊNIO 852409-2017)",
+      "source_row": 23
+    },
+    {
+      "code": "315",
+      "classification": "1.1.1.02.001.009",
+      "name": "BB AG: 72-8 C/C 97.304-1 (CONVÊNIO 879519-2018)",
+      "source_row": 24
+    },
+    {
+      "code": "322",
+      "classification": "1.1.1.02.001.010",
+      "name": "BB AG: 72-8 C/C 96.760-2 (CONVÊNIO 870609-2018)",
+      "source_row": 25
+    },
+    {
+      "code": "329",
+      "classification": "1.1.1.02.001.011",
+      "name": "BB AG: 72-8 C/C 95.625-2 (CONVÊNIO 848529-2017)",
+      "source_row": 26
+    },
+    {
+      "code": "336",
+      "classification": "1.1.1.02.001.012",
+      "name": "BB AG: 72-8 C/C 100.717-3 (PDDE)",
+      "source_row": 27
+    },
+    {
+      "code": "343",
+      "classification": "1.1.1.02.001.013",
+      "name": "BB AG: 72-8 C/C 104.894-5 (CONVÊNIO 921357-2021)",
+      "source_row": 28
+    },
+    {
+      "code": "392",
+      "classification": "1.1.1.02.001.014",
+      "name": "BB AG: 72-8 C/C 114.322-0 (CONVÊNIO 929797-2022)",
+      "source_row": 29
+    },
+    {
+      "code": "420",
+      "classification": "1.1.1.02.001.015",
+      "name": "BB AG: 4767-8 C/C 27277-9 (CONVÊNIO 99000922-2024)",
+      "source_row": 30
+    },
+    {
+      "code": "553",
+      "classification": "1.1.1.02.001.016",
+      "name": "BB AG: 72-8 C/C 124583-X (CONVÊNIO 970492-2024)",
+      "source_row": 31
+    },
+    {
+      "code": "350",
+      "classification": "1.1.1.02.002",
+      "name": "CAIXA ECONÔMICA FEDERAL C/MOVIMENTO",
+      "source_row": 32
+    },
+    {
+      "code": "357",
+      "classification": "1.1.1.02.002.001",
+      "name": "CEF AG: 0174 C/C 0001912-9",
+      "source_row": 33
+    },
+    {
+      "code": "364",
+      "classification": "1.1.1.02.002.002",
+      "name": "CEF AG: 0174 C/C 00005198-7",
+      "source_row": 34
+    },
+    {
+      "code": "385",
+      "classification": "1.1.1.02.002.003",
+      "name": "CEF AG: 0174  C/C 5.342-4 (FME)",
+      "source_row": 35
+    },
+    {
+      "code": "399",
+      "classification": "1.1.1.02.002.004",
+      "name": "CEF AG: 0174 C/C 00453024-3 (Emenda Parlamentar)",
+      "source_row": 36
+    },
+    {
+      "code": "427",
+      "classification": "1.1.1.02.002.005",
+      "name": "CEF AG: 0174 C/C 00005463-3 (Emenda Parlamentar)",
+      "source_row": 37
+    },
+    {
+      "code": "434",
+      "classification": "1.1.1.02.002.006",
+      "name": "CEF AG: 0174 C/C 00005772-1 (Emenda Parlamentar)",
+      "source_row": 38
+    },
+    {
+      "code": "441",
+      "classification": "1.1.1.02.002.007",
+      "name": "CEF AG: 0174 C/C 00453026-0 (Emenda Parlamentar)",
+      "source_row": 39
+    },
+    {
+      "code": "448",
+      "classification": "1.1.1.02.002.008",
+      "name": "CEF AG: 0174 C/C 00006138-9 (Emenda Parlamentar)",
+      "source_row": 40
+    },
+    {
+      "code": "455",
+      "classification": "1.1.1.02.002.009",
+      "name": "CEF AG: 0174 C/C 453027-8 (Emenda Parlamentar)",
+      "source_row": 41
+    },
+    {
+      "code": "462",
+      "classification": "1.1.1.02.002.010",
+      "name": "CEF AG: 0174 C/C 0453030-8 (Emenda Parlamentar)",
+      "source_row": 42
+    },
+    {
+      "code": "490",
+      "classification": "1.1.1.02.002.011",
+      "name": "CEF AG: 0174 C/C 577599189-0",
+      "source_row": 43
+    },
+    {
+      "code": "497",
+      "classification": "1.1.1.02.002.012",
+      "name": "CEF AG: 0174 C/C 577599234-9",
+      "source_row": 44
+    },
+    {
+      "code": "504",
+      "classification": "1.1.1.02.002.013",
+      "name": "CEF AG: 0174 C/C 577599242-0 (FME)",
+      "source_row": 45
+    },
+    {
+      "code": "518",
+      "classification": "1.1.1.02.002.014",
+      "name": "CEF AG: 0174 C/C 577599243-8 (Emenda Parlamentar)",
+      "source_row": 46
+    },
+    {
+      "code": "525",
+      "classification": "1.1.1.02.002.015",
+      "name": "CEF AG: 0174 C/C 577599332-9  (Emenda Parlamentar)",
+      "source_row": 47
+    },
+    {
+      "code": "532",
+      "classification": "1.1.1.02.002.016",
+      "name": "CEF AG: 0174 C/C 577599341-8 (Emenda Parlamentar)",
+      "source_row": 48
+    },
+    {
+      "code": "546",
+      "classification": "1.1.1.02.002.017",
+      "name": "CEF AG: 0174 C/C 576785056-5",
+      "source_row": 49
+    },
+    {
+      "code": "567",
+      "classification": "1.1.1.02.002.018",
+      "name": "CEF AG: 0174 C/C 573473435-3 (Emenda Parlamentar)",
+      "source_row": 50
+    },
+    {
+      "code": "371",
+      "classification": "1.1.1.02.003",
+      "name": "BANCO BRADESCO S/A C/MOVIMENTO",
+      "source_row": 51
+    },
+    {
+      "code": "378",
+      "classification": "1.1.1.02.003.001",
+      "name": "BRADESCO AG: 309 C/C 124.098-6",
+      "source_row": 52
+    },
+    {
+      "code": "22715",
+      "classification": "1.1.1.02.003.002",
+      "name": "BRADESCO AG: 309 C/C 0004715-5 (LOTERJ Nº 666)",
+      "source_row": 53
+    },
+    {
+      "code": "22743",
+      "classification": "1.1.1.02.003.003",
+      "name": "BRADESCO AG: 309 C/C 202.798-4",
+      "source_row": 54
+    },
+    {
+      "code": "22750",
+      "classification": "1.1.1.02.003.004",
+      "name": "BRADESCO AG: 1346 C/C 0002700-6",
+      "source_row": 55
+    },
+    {
+      "code": "22757",
+      "classification": "1.1.1.02.003.005",
+      "name": "BRADESCO AG: 1346 C/C 2731-6",
+      "source_row": 56
+    },
+    {
+      "code": "22785",
+      "classification": "1.1.1.02.003.006",
+      "name": "BRADESCO AG: 1346 C/C 2735-9",
+      "source_row": 57
+    },
+    {
+      "code": "22827",
+      "classification": "1.1.1.02.003.007",
+      "name": "BRADESCO AG: 1346 C/C 0002960-2",
+      "source_row": 58
+    },
+    {
+      "code": "406",
+      "classification": "1.1.1.02.004",
+      "name": "BANCO ITAÚ C/MOVIMENTO",
+      "source_row": 59
+    },
+    {
+      "code": "413",
+      "classification": "1.1.1.02.004.001",
+      "name": "ITAU AG 8115 C/C 01569-8",
+      "source_row": 60
+    },
+    {
+      "code": "19565",
+      "classification": "1.1.1.02.004.002",
+      "name": "ITAU AG 8115 C/C 01441",
+      "source_row": 61
+    },
+    {
+      "code": "19572",
+      "classification": "1.1.1.02.004.003",
+      "name": "ITAU AG 8115 C/C 00268-8 (ESP)",
+      "source_row": 62
+    },
+    {
+      "code": "19607",
+      "classification": "1.1.1.02.004.004",
+      "name": "ITAU AG 6077 C/C 01640-7 (Emenda Parlamentar)",
+      "source_row": 63
+    },
+    {
+      "code": "22722",
+      "classification": "1.1.1.02.005",
+      "name": "BANCO PAGSEGURO S/A C/MOVIMENTO",
+      "source_row": 64
+    },
+    {
+      "code": "22736",
+      "classification": "1.1.1.02.005.001",
+      "name": "PAGSEGURO Ag.: 0001 C/C 07850540-1 (ESP)",
+      "source_row": 65
+    },
+    {
+      "code": "469",
+      "classification": "1.1.1.03",
+      "name": "APLICAÇÕES FINANCEIRAS LIQUIDEZ IMEDIATA",
+      "source_row": 66
+    },
+    {
+      "code": "476",
+      "classification": "1.1.1.03.001",
+      "name": "BANCO DO BRASIL S/A",
+      "source_row": 67
+    },
+    {
+      "code": "483",
+      "classification": "1.1.1.03.001.001",
+      "name": "BB AG: 4767-8 C/C 50.293-6",
+      "source_row": 68
+    },
+    {
+      "code": "511",
+      "classification": "1.1.1.03.001.003",
+      "name": "BB AG: 4767-8 C/C 116318-3",
+      "source_row": 69
+    },
+    {
+      "code": "560",
+      "classification": "1.1.1.03.001.015",
+      "name": "BB AG: 72-8 C/C 124583-X (CONVÊNIO 970492-2024)",
+      "source_row": 70
+    },
+    {
+      "code": "609",
+      "classification": "1.1.1.03.001.004",
+      "name": "BB AG: 4767-8 C/C 46.240-3",
+      "source_row": 71
+    },
+    {
+      "code": "658",
+      "classification": "1.1.1.03.001.005",
+      "name": "BB AG: 4767-8 C/C 64.231-2",
+      "source_row": 72
+    },
+    {
+      "code": "665",
+      "classification": "1.1.1.03.001.006",
+      "name": "BB AG: 4767-8 C/C 91.182-8",
+      "source_row": 73
+    },
+    {
+      "code": "672",
+      "classification": "1.1.1.03.001.002",
+      "name": "BB AG: 4767-8 C/C 92.654-X",
+      "source_row": 74
+    },
+    {
+      "code": "679",
+      "classification": "1.1.1.03.001.007",
+      "name": "BB AG: 72-8 C/C 95.645-7 (CONVÊNIO 852409-2017)",
+      "source_row": 75
+    },
+    {
+      "code": "686",
+      "classification": "1.1.1.03.001.008",
+      "name": "BB AG: 72-8 C/C 97.304-1 (CONVÊNIO 879519-2018)",
+      "source_row": 76
+    },
+    {
+      "code": "693",
+      "classification": "1.1.1.03.001.009",
+      "name": "BB AG: 72-8 C/C 96.760-2 (CONVÊNIO 870609-2018)",
+      "source_row": 77
+    },
+    {
+      "code": "700",
+      "classification": "1.1.1.03.001.010",
+      "name": "BB AG: 72-8 C/C 95.625-2 (CONVÊNIO 848529-2017)",
+      "source_row": 78
+    },
+    {
+      "code": "707",
+      "classification": "1.1.1.03.001.011",
+      "name": "BB AG: 72-8 C/C 100.717-3 (PDDE)",
+      "source_row": 79
+    },
+    {
+      "code": "714",
+      "classification": "1.1.1.03.001.012",
+      "name": "BB AG: 72-8 C/C 104.894-5 (CONVÊNIO 921357-2021)",
+      "source_row": 80
+    },
+    {
+      "code": "721",
+      "classification": "1.1.1.03.001.013",
+      "name": "BB AG: 72-8 C/C 114.322-0 (CONVÊNIO 929797-2022)",
+      "source_row": 81
+    },
+    {
+      "code": "728",
+      "classification": "1.1.1.03.001.014",
+      "name": "BB AG: 4767-8 C/C 27277-9 (CONVÊNIO 99000922-2024)",
+      "source_row": 82
+    },
+    {
+      "code": "735",
+      "classification": "1.1.1.03.002",
+      "name": "CAIXA ECONOMICA FEDERAL C/APLICAÇÃO",
+      "source_row": 83
+    },
+    {
+      "code": "539",
+      "classification": "1.1.1.03.002.017",
+      "name": "CEF AG: 0174 C/C 577599342-6 (Emenda Parlamentar)",
+      "source_row": 84
+    },
+    {
+      "code": "742",
+      "classification": "1.1.1.03.002.001",
+      "name": "CEF AG: 0174 C/C 0001912-9",
+      "source_row": 85
+    },
+    {
+      "code": "749",
+      "classification": "1.1.1.03.002.002",
+      "name": "CEF AG: 0174 C/C 0001912-9 - CDB",
+      "source_row": 86
+    },
+    {
+      "code": "777",
+      "classification": "1.1.1.03.002.003",
+      "name": "CEF AG: 0174 C/C 00005198-7",
+      "source_row": 87
+    },
+    {
+      "code": "784",
+      "classification": "1.1.1.03.002.004",
+      "name": "CEF AG: 0174 C/C 5.342-4 (FME)",
+      "source_row": 88
+    },
+    {
+      "code": "812",
+      "classification": "1.1.1.03.002.005",
+      "name": "CEF AG: 0174 C/C 00453024-3 (Emenda Parlamentar)",
+      "source_row": 89
+    },
+    {
+      "code": "819",
+      "classification": "1.1.1.03.002.006",
+      "name": "CEF AG: 0174 C/C 00005463-3 (Emenda Parlamentar)",
+      "source_row": 90
+    },
+    {
+      "code": "826",
+      "classification": "1.1.1.03.002.007",
+      "name": "CEF AG: 0174 C/C 5342-4 - CDB (FME)",
+      "source_row": 91
+    },
+    {
+      "code": "833",
+      "classification": "1.1.1.03.002.008",
+      "name": "CEF AG: 0174 C/C 00005772-1 (Emenda Parlamentar)",
+      "source_row": 92
+    },
+    {
+      "code": "840",
+      "classification": "1.1.1.03.002.009",
+      "name": "CEF AG: 0174 C/C 00453026-0 (Emenda Parlamentar)",
+      "source_row": 93
+    },
+    {
+      "code": "847",
+      "classification": "1.1.1.03.002.010",
+      "name": "CEF AG: 0174 C/C 00006138-9 (Emenda Parlamentar)",
+      "source_row": 94
+    },
+    {
+      "code": "854",
+      "classification": "1.1.1.03.002.011",
+      "name": "CEF AG: 0174 C/C 453027-8 (Emenda Parlamentar)",
+      "source_row": 95
+    },
+    {
+      "code": "861",
+      "classification": "1.1.1.03.002.012",
+      "name": "CEF AG: 0174 C/C 0453030-8 (Emenda Parlamentar)",
+      "source_row": 96
+    },
+    {
+      "code": "868",
+      "classification": "1.1.1.03.002.013",
+      "name": "CEF AG: 0174 C/C 577599189-0",
+      "source_row": 97
+    },
+    {
+      "code": "875",
+      "classification": "1.1.1.03.002.014",
+      "name": "CEF AG: 0174 C/C 577599242-0 (FME)",
+      "source_row": 98
+    },
+    {
+      "code": "882",
+      "classification": "1.1.1.03.002.015",
+      "name": "CEF AG: 0174 C/C 577599243-8 (Emenda Parlamentar)",
+      "source_row": 99
+    },
+    {
+      "code": "889",
+      "classification": "1.1.1.03.002.016",
+      "name": "CEF AG: 0174 C/C 577599332-9 (Emenda Parlamentar)",
+      "source_row": 100
+    },
+    {
+      "code": "896",
+      "classification": "1.1.1.03.002.018",
+      "name": "CEF AG: 0174 C/C 573473435-3 (Emenda Parlamentar)",
+      "source_row": 101
+    },
+    {
+      "code": "756",
+      "classification": "1.1.1.03.003",
+      "name": "BANCO BRADESCO S/A C/APLICAÇÃO",
+      "source_row": 102
+    },
+    {
+      "code": "770",
+      "classification": "1.1.1.03.003.003",
+      "name": "BRADESCO AG: 309 C/C 0124098-6 - HIPERFUNDO",
+      "source_row": 103
+    },
+    {
+      "code": "23968",
+      "classification": "1.1.1.03.003.001",
+      "name": "BRADESCO AG: 309 C/C 124.098-6 (Facil)",
+      "source_row": 104
+    },
+    {
+      "code": "24010",
+      "classification": "1.1.1.03.003.002",
+      "name": "BRADESCO AG: 309 C/C 0004715-5 (LOTERJ Nº 666)",
+      "source_row": 105
+    },
+    {
+      "code": "24374",
+      "classification": "1.1.1.03.003.004",
+      "name": "BRADESCO AG: 309 C/C 0202798-4",
+      "source_row": 106
+    },
+    {
+      "code": "24731",
+      "classification": "1.1.1.03.003.005",
+      "name": "BRADESCO AG: 309 C/C 124.098-6 (CDB-FACIL CDI)",
+      "source_row": 107
+    },
+    {
+      "code": "24843",
+      "classification": "1.1.1.03.003.006",
+      "name": "BRADESCO AG: 1346 C/C 2731-6 (CDB)",
+      "source_row": 108
+    },
+    {
+      "code": "24864",
+      "classification": "1.1.1.03.003.007",
+      "name": "BRADESCO AG: 1346 C/C 0002960-2 (CDB)",
+      "source_row": 109
+    },
+    {
+      "code": "24906",
+      "classification": "1.1.1.03.003.008",
+      "name": "BRADESCO AG: 1346 C/C 2735-9 (CDB)",
+      "source_row": 110
+    },
+    {
+      "code": "791",
+      "classification": "1.1.1.03.004",
+      "name": "BANCO ITAÚ S/A C/APLICAÇÃO",
+      "source_row": 111
+    },
+    {
+      "code": "798",
+      "classification": "1.1.1.03.004.001",
+      "name": "ITAU C/A AUT MAIS AG: 8115 C/C 01569-8",
+      "source_row": 112
+    },
+    {
+      "code": "22988",
+      "classification": "1.1.1.03.004.002",
+      "name": "ITAU C/A AUT MAIS AG: 8115 C/C 01441-0",
+      "source_row": 113
+    },
+    {
+      "code": "23072",
+      "classification": "1.1.1.03.004.003",
+      "name": "ITAU C/A AUT MAIS AG: 8115 C/C 01569-8 - CDB",
+      "source_row": 114
+    },
+    {
+      "code": "23093",
+      "classification": "1.1.1.03.004.004",
+      "name": "ITAU AG 6077 C/C 01640-7 (Emenda Parlamentar)",
+      "source_row": 115
+    },
+    {
+      "code": "23100",
+      "classification": "1.1.1.03.004.005",
+      "name": "ITAU AG 8115 C/C 01441 - CDB",
+      "source_row": 116
+    },
+    {
+      "code": "23107",
+      "classification": "1.1.1.03.004.006",
+      "name": "ITAU C/A AG 6077 C/C 01640-7 - CDB",
+      "source_row": 117
+    },
+    {
+      "code": "24129",
+      "classification": "1.1.1.04",
+      "name": "BANCOS CONTA POUPANÇA",
+      "source_row": 118
+    },
+    {
+      "code": "24136",
+      "classification": "1.1.1.04.001",
+      "name": "BANCO DO BRASIL",
+      "source_row": 119
+    },
+    {
+      "code": "24143",
+      "classification": "1.1.1.04.001.001",
+      "name": "BB AG: 72-8 C/P 96.760-2 (CONVÊNIO 870609/2018)",
+      "source_row": 120
+    },
+    {
+      "code": "24150",
+      "classification": "1.1.1.04.001.002",
+      "name": "BB AG: 72-8 C/P 97.304-1 (CONVÊNIO 879519/2018)",
+      "source_row": 121
+    },
+    {
+      "code": "24157",
+      "classification": "1.1.1.04.001.003",
+      "name": "BB AG: 72-8 C/P 95625-2 (CONVÊNIO 848529-2017)",
+      "source_row": 122
+    },
+    {
+      "code": "24171",
+      "classification": "1.1.1.04.001.004",
+      "name": "BB AG: 72-8 C/C 95.645-7 (CONVÊNIO 852409-2017)",
+      "source_row": 123
+    },
+    {
+      "code": "24689",
+      "classification": "1.1.1.04.001.005",
+      "name": "BB AG: 72-8 C/C 104.894-5 (CONVÊNIO 921357-2021)",
+      "source_row": 124
+    },
+    {
+      "code": "24752",
+      "classification": "1.1.1.04.001.006",
+      "name": "BB AG: 72-8 C/C 114.322-0 (CONVÊNIO 929797-2022)",
+      "source_row": 125
+    },
+    {
+      "code": "24808",
+      "classification": "1.1.1.04.001.007",
+      "name": "BB AG: 4767-8 C/C 27277-9 (CONVÊNIO 99000922-2024)",
+      "source_row": 126
+    },
+    {
+      "code": "24885",
+      "classification": "1.1.1.04.001.008",
+      "name": "BB AG: 72-8 C/C 124583-X (CONVÊNIO 970492-2024)",
+      "source_row": 127
+    },
+    {
+      "code": "24563",
+      "classification": "1.1.1.04.002",
+      "name": "CAIXA ECONOMICA FEDERAL",
+      "source_row": 128
+    },
+    {
+      "code": "24570",
+      "classification": "1.1.1.04.002.001",
+      "name": "CEF AG: 0174 C/C 00453026-0 (Emenda Parlamentar)",
+      "source_row": 129
+    },
+    {
+      "code": "24577",
+      "classification": "1.1.1.04.002.002",
+      "name": "CEF AG: 0174 C/C 00066885-0 (Emenda Parlamentar)",
+      "source_row": 130
+    },
+    {
+      "code": "24633",
+      "classification": "1.1.1.04.002.003",
+      "name": "CEF AG: 0174 C/C 453027-8 (Emenda Parlamentar)",
+      "source_row": 131
+    },
+    {
+      "code": "24640",
+      "classification": "1.1.1.04.002.004",
+      "name": "CEF AG: 0174 C/C 0453030-8 (Emenda Parlamentar)",
+      "source_row": 132
+    },
+    {
+      "code": "24892",
+      "classification": "1.1.1.04.002.005",
+      "name": "CEF AG: 0174 C/C 573473435-3 (Emenda Parlamentar)",
+      "source_row": 133
+    },
+    {
+      "code": "24703",
+      "classification": "1.1.1.05",
+      "name": "BANCOS TITULO DE CAPITALIZAÇÃO",
+      "source_row": 134
+    },
+    {
+      "code": "24710",
+      "classification": "1.1.1.05.001",
+      "name": "BANCO BRADESCO",
+      "source_row": 135
+    },
+    {
+      "code": "24717",
+      "classification": "1.1.1.05.001.001",
+      "name": "BRADESCO AG: 309 C/C 124.098-6",
+      "source_row": 136
+    },
+    {
+      "code": "1008",
+      "classification": "1.1.2",
+      "name": "REALIZÁVEL",
+      "source_row": 137
+    },
+    {
+      "code": "1078",
+      "classification": "1.1.2.01",
+      "name": "EDUCAÇÃO",
+      "source_row": 138
+    },
+    {
+      "code": "1085",
+      "classification": "1.1.2.01.001",
+      "name": "CONTRATOS DE FOMENTO",
+      "source_row": 139
+    },
+    {
+      "code": "1260",
+      "classification": "1.1.2.01.001.001",
+      "name": "Fundação Municipal de Educação - FME",
+      "source_row": 140
+    },
+    {
+      "code": "1113",
+      "classification": "1.1.2.01.002",
+      "name": "CONVÊNIO",
+      "source_row": 141
+    },
+    {
+      "code": "1274",
+      "classification": "1.1.2.01.002.001",
+      "name": "Loteria do Estado do Rio de Janeiro",
+      "source_row": 142
+    },
+    {
+      "code": "1169",
+      "classification": "1.1.2.02",
+      "name": "SAÚDE",
+      "source_row": 143
+    },
+    {
+      "code": "23856",
+      "classification": "1.1.2.02.001",
+      "name": "CONTRATOS DE FOMENTO",
+      "source_row": 144
+    },
+    {
+      "code": "1197",
+      "classification": "1.1.2.02.002",
+      "name": "CONTRATOS DE PRESTAÇÃO DE SERVIÇOS",
+      "source_row": 145
+    },
+    {
+      "code": "1120",
+      "classification": "1.1.2.02.002.001",
+      "name": "Sistema Único de Saúde - SUS",
+      "source_row": 146
+    },
+    {
+      "code": "1127",
+      "classification": "1.1.2.02.002.002",
+      "name": "Fundação Municipal de Saúde de Niterói",
+      "source_row": 147
+    },
+    {
+      "code": "23730",
+      "classification": "1.1.2.02.002.003",
+      "name": "Reabilitação Oficina Ortopédica - CER II",
+      "source_row": 148
+    },
+    {
+      "code": "23835",
+      "classification": "1.1.2.02.002.004",
+      "name": "Custeio Reabilitação - CER ll",
+      "source_row": 149
+    },
+    {
+      "code": "24913",
+      "classification": "1.1.2.02.002.005",
+      "name": "Tea 20% - CER II",
+      "source_row": 150
+    },
+    {
+      "code": "23877",
+      "classification": "1.1.2.02.003",
+      "name": "CONVÊNIO",
+      "source_row": 151
+    },
+    {
+      "code": "23842",
+      "classification": "1.1.2.02.003.001",
+      "name": "Loteria do Estado do Rio de Janeiro",
+      "source_row": 152
+    },
+    {
+      "code": "23849",
+      "classification": "1.1.2.02.003.002",
+      "name": "Ministério da Saúde",
+      "source_row": 153
+    },
+    {
+      "code": "24500",
+      "classification": "1.1.2.02.003.003",
+      "name": "Governo Federal",
+      "source_row": 154
+    },
+    {
+      "code": "1323",
+      "classification": "1.1.2.03",
+      "name": "ASSITÊNCIA SOCIAL",
+      "source_row": 155
+    },
+    {
+      "code": "1330",
+      "classification": "1.1.2.03.001",
+      "name": "CONTRATOS DE FOMENTO",
+      "source_row": 156
+    },
+    {
+      "code": "1267",
+      "classification": "1.1.2.03.001.001",
+      "name": "Convênio - Loteria do Estado do Rio de Janeiro",
+      "source_row": 157
+    },
+    {
+      "code": "1337",
+      "classification": "1.1.2.03.002",
+      "name": "CONVÊNIO",
+      "source_row": 158
+    },
+    {
+      "code": "1372",
+      "classification": "1.1.2.04",
+      "name": "ADIANTAMENTOS",
+      "source_row": 159
+    },
+    {
+      "code": "1379",
+      "classification": "1.1.2.04.001",
+      "name": "ADIANTAMENTOS - APN",
+      "source_row": 160
+    },
+    {
+      "code": "1386",
+      "classification": "1.1.2.04.001.001",
+      "name": "Adiantamento de Salários",
+      "source_row": 161
+    },
+    {
+      "code": "1393",
+      "classification": "1.1.2.04.001.002",
+      "name": "Adiantamento de 13º Salário",
+      "source_row": 162
+    },
+    {
+      "code": "1400",
+      "classification": "1.1.2.04.001.003",
+      "name": "Adiantamento de Férias",
+      "source_row": 163
+    },
+    {
+      "code": "1414",
+      "classification": "1.1.2.04.001.004",
+      "name": "Adiantamento de Despesas",
+      "source_row": 164
+    },
+    {
+      "code": "1421",
+      "classification": "1.1.2.04.001.005",
+      "name": "Adiantamento de Fornecedores",
+      "source_row": 165
+    },
+    {
+      "code": "1449",
+      "classification": "1.1.2.04.001.006",
+      "name": "Adiantamento de Autônomo",
+      "source_row": 166
+    },
+    {
+      "code": "1456",
+      "classification": "1.1.2.04.001.007",
+      "name": "Adiantamento Consórcios",
+      "source_row": 167
+    },
+    {
+      "code": "1428",
+      "classification": "1.1.2.04.002",
+      "name": "ADIANTAMENTOS - ESP",
+      "source_row": 168
+    },
+    {
+      "code": "1435",
+      "classification": "1.1.2.04.002.001",
+      "name": "Adiantamento a Fornecedores",
+      "source_row": 169
+    },
+    {
+      "code": "1442",
+      "classification": "1.1.2.04.002.002",
+      "name": "Adiantamento para Despesas",
+      "source_row": 170
+    },
+    {
+      "code": "1547",
+      "classification": "1.1.2.05",
+      "name": "MANTENEDORA",
+      "source_row": 171
+    },
+    {
+      "code": "19320",
+      "classification": "1.1.2.05.001",
+      "name": "PARTICULARES",
+      "source_row": 172
+    },
+    {
+      "code": "19348",
+      "classification": "1.1.2.05.001.001",
+      "name": "Oficina de Órteses e Próteses",
+      "source_row": 173
+    },
+    {
+      "code": "19355",
+      "classification": "1.1.2.05.001.002",
+      "name": "Cartão de Débito e Crédito",
+      "source_row": 174
+    },
+    {
+      "code": "19362",
+      "classification": "1.1.2.05.002",
+      "name": "Plano de Saúde",
+      "source_row": 175
+    },
+    {
+      "code": "19369",
+      "classification": "1.1.2.05.002.001",
+      "name": "Cassi",
+      "source_row": 176
+    },
+    {
+      "code": "19383",
+      "classification": "1.1.2.05.002.002",
+      "name": "Postal Saúde",
+      "source_row": 177
+    },
+    {
+      "code": "19390",
+      "classification": "1.1.2.05.002.003",
+      "name": "Bradesco Saúde",
+      "source_row": 178
+    },
+    {
+      "code": "19404",
+      "classification": "1.1.2.05.002.004",
+      "name": "Caixa Saúde",
+      "source_row": 179
+    },
+    {
+      "code": "19446",
+      "classification": "1.1.2.05.002.005",
+      "name": "Mediservice",
+      "source_row": 180
+    },
+    {
+      "code": "19460",
+      "classification": "1.1.2.05.002.006",
+      "name": "Gama Saúde",
+      "source_row": 181
+    },
+    {
+      "code": "19467",
+      "classification": "1.1.2.05.002.007",
+      "name": "Dasa Saúde",
+      "source_row": 182
+    },
+    {
+      "code": "19481",
+      "classification": "1.1.2.05.002.008",
+      "name": "Leve Saúde",
+      "source_row": 183
+    },
+    {
+      "code": "19411",
+      "classification": "1.1.2.05.003",
+      "name": "ALUGUEIS DE ESPAÇO",
+      "source_row": 184
+    },
+    {
+      "code": "19418",
+      "classification": "1.1.2.05.003.001",
+      "name": "Aluguel Antena TIM",
+      "source_row": 185
+    },
+    {
+      "code": "19425",
+      "classification": "1.1.2.05.003.002",
+      "name": "Aluguel Cantina",
+      "source_row": 186
+    },
+    {
+      "code": "19439",
+      "classification": "1.1.2.05.003.003",
+      "name": "Aluguel de Salas",
+      "source_row": 187
+    },
+    {
+      "code": "1680",
+      "classification": "1.1.2.06",
+      "name": "TRIBUTOS A RECUPERAR",
+      "source_row": 188
+    },
+    {
+      "code": "1687",
+      "classification": "1.1.2.06.001",
+      "name": "TRIBUTOS A RECUPERAR",
+      "source_row": 189
+    },
+    {
+      "code": "1694",
+      "classification": "1.1.2.06.001.001",
+      "name": "IRRF",
+      "source_row": 190
+    },
+    {
+      "code": "1701",
+      "classification": "1.1.2.06.001.005",
+      "name": "ISSQN",
+      "source_row": 191
+    },
+    {
+      "code": "1729",
+      "classification": "1.1.2.06.001.003",
+      "name": "INSS",
+      "source_row": 192
+    },
+    {
+      "code": "1736",
+      "classification": "1.1.2.06.001.004",
+      "name": "FGTS",
+      "source_row": 193
+    },
+    {
+      "code": "1743",
+      "classification": "1.1.2.06.001.002",
+      "name": "PIS",
+      "source_row": 194
+    },
+    {
+      "code": "1750",
+      "classification": "1.1.2.06.001.006",
+      "name": "PIS/COFINS/CSLL",
+      "source_row": 195
+    },
+    {
+      "code": "1918",
+      "classification": "1.1.2.07",
+      "name": "ESTOQUES",
+      "source_row": 196
+    },
+    {
+      "code": "1925",
+      "classification": "1.1.2.07.001",
+      "name": "ESTOQUES",
+      "source_row": 197
+    },
+    {
+      "code": "1932",
+      "classification": "1.1.2.07.001.001",
+      "name": "Almoxarifado",
+      "source_row": 198
+    },
+    {
+      "code": "1939",
+      "classification": "1.1.2.07.001.002",
+      "name": "Cozinha (Merenda Escolar)",
+      "source_row": 199
+    },
+    {
+      "code": "19327",
+      "classification": "1.1.2.07.001.003",
+      "name": "Oficina de Órteses e Próteses",
+      "source_row": 200
+    },
+    {
+      "code": "2485",
+      "classification": "1.1.2.08",
+      "name": "TRANSFERÊNCIAS",
+      "source_row": 201
+    },
+    {
+      "code": "2492",
+      "classification": "1.1.2.08.001",
+      "name": "TRANSFERÊNCIAS BANCÁRIAS",
+      "source_row": 202
+    },
+    {
+      "code": "2499",
+      "classification": "1.1.2.08.001.001",
+      "name": "Transferências Bancárias",
+      "source_row": 203
+    },
+    {
+      "code": "21098",
+      "classification": "1.1.2.09",
+      "name": "OUTROS VALORES A RECUPERAR",
+      "source_row": 204
+    },
+    {
+      "code": "21105",
+      "classification": "1.1.2.09.001",
+      "name": "BLOQUEIOS JUDICIAIS",
+      "source_row": 205
+    },
+    {
+      "code": "21112",
+      "classification": "1.1.2.09.001.001",
+      "name": "CEF AG: 0174 C/C 0001912-9",
+      "source_row": 206
+    },
+    {
+      "code": "22792",
+      "classification": "1.1.2.09.001.002",
+      "name": "ITAU AG 8115 C/C 01569-8",
+      "source_row": 207
+    },
+    {
+      "code": "22806",
+      "classification": "1.1.2.09.001.003",
+      "name": "BB AG: 4767-8 C/C 50.293-6",
+      "source_row": 208
+    },
+    {
+      "code": "22813",
+      "classification": "1.1.2.09.001.004",
+      "name": "ITAU AG 8115 C/C 01441",
+      "source_row": 209
+    },
+    {
+      "code": "22820",
+      "classification": "1.1.2.09.001.005",
+      "name": "BRADESCO AG: 309 C/C 124.098-6",
+      "source_row": 210
+    },
+    {
+      "code": "22799",
+      "classification": "1.1.2.09.002",
+      "name": "OUTROS VALORES",
+      "source_row": 211
+    },
+    {
+      "code": "23961",
+      "classification": "1.1.2.09.002.001",
+      "name": "Pagamentos Indevidos",
+      "source_row": 212
+    },
+    {
+      "code": "2583",
+      "classification": "1.2",
+      "name": "ATIVO NÃO CIRCULANTE",
+      "source_row": 213
+    },
+    {
+      "code": "2590",
+      "classification": "1.2.1",
+      "name": "REALIZÁVEL A LONGO PRAZO",
+      "source_row": 214
+    },
+    {
+      "code": "2597",
+      "classification": "1.2.1.01",
+      "name": "APLICAÇÕES FINANCEIRAS - LP",
+      "source_row": 215
+    },
+    {
+      "code": "2604",
+      "classification": "1.2.1.01.001",
+      "name": "APLICAÇÕES FINANCEIRAS",
+      "source_row": 216
+    },
+    {
+      "code": "2611",
+      "classification": "1.2.1.01.002",
+      "name": "TÍTULOS DE CAPITALIZAÇÃO",
+      "source_row": 217
+    },
+    {
+      "code": "2632",
+      "classification": "1.2.1.02",
+      "name": "DEPÓSITOS - LP",
+      "source_row": 218
+    },
+    {
+      "code": "2639",
+      "classification": "1.2.1.02.001",
+      "name": "DEPÓSITOS JUDICIAIS",
+      "source_row": 219
+    },
+    {
+      "code": "2646",
+      "classification": "1.2.1.02.001.001",
+      "name": "Depósitos Judiciais - Trabalhistas",
+      "source_row": 220
+    },
+    {
+      "code": "2660",
+      "classification": "1.2.1.02.001.002",
+      "name": "Depósitos Judiciais - Cíveis",
+      "source_row": 221
+    },
+    {
+      "code": "2667",
+      "classification": "1.2.1.02.002",
+      "name": "PROVISÃO DE CONTINGÊNCIAS",
+      "source_row": 222
+    },
+    {
+      "code": "2674",
+      "classification": "1.2.1.02.002.001",
+      "name": "Processos Judiciais",
+      "source_row": 223
+    },
+    {
+      "code": "2751",
+      "classification": "1.2.2",
+      "name": "IMOBILIZADO",
+      "source_row": 224
+    },
+    {
+      "code": "2758",
+      "classification": "1.2.2.01",
+      "name": "IMOBILIZADO",
+      "source_row": 225
+    },
+    {
+      "code": "2765",
+      "classification": "1.2.2.01.001",
+      "name": "IMOBILIZADO - APN",
+      "source_row": 226
+    },
+    {
+      "code": "2772",
+      "classification": "1.2.2.01.001.001",
+      "name": "IMÓVEIS",
+      "source_row": 227
+    },
+    {
+      "code": "2779",
+      "classification": "1.2.2.01.001.002",
+      "name": "MÓVEIS E UTENSÍLIOS",
+      "source_row": 228
+    },
+    {
+      "code": "2786",
+      "classification": "1.2.2.01.001.003",
+      "name": "MÁQUINAS E EQUIPAMENTOS",
+      "source_row": 229
+    },
+    {
+      "code": "2793",
+      "classification": "1.2.2.01.001.004",
+      "name": "VEÍCULOS",
+      "source_row": 230
+    },
+    {
+      "code": "2800",
+      "classification": "1.2.2.01.001.005",
+      "name": "COMPUTADORES E PERIERÍCOS",
+      "source_row": 231
+    },
+    {
+      "code": "2807",
+      "classification": "1.2.2.01.001.006",
+      "name": "MATERIAIS DIDÁTICOS",
+      "source_row": 232
+    },
+    {
+      "code": "2814",
+      "classification": "1.2.2.01.001.007",
+      "name": "TERRENOS",
+      "source_row": 233
+    },
+    {
+      "code": "2821",
+      "classification": "1.2.2.01.001.008",
+      "name": "BIBLIOTECA",
+      "source_row": 234
+    },
+    {
+      "code": "2828",
+      "classification": "1.2.2.01.001.009",
+      "name": "EQUIPAMENTO DE ACÚSTICA",
+      "source_row": 235
+    },
+    {
+      "code": "2835",
+      "classification": "1.2.2.01.001.010",
+      "name": "INSTALAÇÕES",
+      "source_row": 236
+    },
+    {
+      "code": "2842",
+      "classification": "1.2.2.01.001.011",
+      "name": "EQUIPAMENTOS DE ENSINO",
+      "source_row": 237
+    },
+    {
+      "code": "2849",
+      "classification": "1.2.2.01.001.012",
+      "name": "EQUIPAMENTOS DE LABORATÓRIO",
+      "source_row": 238
+    },
+    {
+      "code": "3159",
+      "classification": "1.2.2.01.001.013",
+      "name": "SEMOVENTES",
+      "source_row": 239
+    },
+    {
+      "code": "19712",
+      "classification": "1.2.2.01.001.019",
+      "name": "EQUIPAMENTO DE INFORMÁTICA",
+      "source_row": 240
+    },
+    {
+      "code": "19733",
+      "classification": "1.2.2.01.001.014",
+      "name": "LINHA TELEFÔNICA - DIREITO DE USO",
+      "source_row": 241
+    },
+    {
+      "code": "19740",
+      "classification": "1.2.2.01.001.015",
+      "name": "PARQUE DE DIVERSÃO",
+      "source_row": 242
+    },
+    {
+      "code": "20181",
+      "classification": "1.2.2.01.001.016",
+      "name": "EQUIPAMENTO TELEFÔNICO",
+      "source_row": 243
+    },
+    {
+      "code": "20202",
+      "classification": "1.2.2.01.001.017",
+      "name": "EQUIPAMENTO TERAPEUTICO",
+      "source_row": 244
+    },
+    {
+      "code": "20223",
+      "classification": "1.2.2.01.001.018",
+      "name": "MATERIAL ESPORTIVO",
+      "source_row": 245
+    },
+    {
+      "code": "20272",
+      "classification": "1.2.2.01.001.020",
+      "name": "MAQUETES",
+      "source_row": 246
+    },
+    {
+      "code": "20279",
+      "classification": "1.2.2.01.002",
+      "name": "IMOBILIZADO - ESP",
+      "source_row": 247
+    },
+    {
+      "code": "20293",
+      "classification": "1.2.2.01.002.001",
+      "name": "IMÓVEIS",
+      "source_row": 248
+    },
+    {
+      "code": "20300",
+      "classification": "1.2.2.01.002.002",
+      "name": "MÓVEIS E UTENSÍLIOS",
+      "source_row": 249
+    },
+    {
+      "code": "20307",
+      "classification": "1.2.2.01.002.003",
+      "name": "MÁQUINAS E EQUIPAMENTOS",
+      "source_row": 250
+    },
+    {
+      "code": "20314",
+      "classification": "1.2.2.01.002.004",
+      "name": "COMPUTADORES E PERIERÍCOS",
+      "source_row": 251
+    },
+    {
+      "code": "20321",
+      "classification": "1.2.2.01.002.005",
+      "name": "MATERIAIS DIDÁTICOS",
+      "source_row": 252
+    },
+    {
+      "code": "20328",
+      "classification": "1.2.2.01.002.006",
+      "name": "EQUIPAMENTOS DE ENSINO",
+      "source_row": 253
+    },
+    {
+      "code": "20335",
+      "classification": "1.2.2.01.002.007",
+      "name": "BIBLIOTÉCA",
+      "source_row": 254
+    },
+    {
+      "code": "20342",
+      "classification": "1.2.2.01.002.008",
+      "name": "EQUIPAMENTO DE LABORATÓRIO",
+      "source_row": 255
+    },
+    {
+      "code": "3115",
+      "classification": "1.2.2.01.003",
+      "name": "IMOBILIZAÇÕES EM ANDAMENTOS",
+      "source_row": 256
+    },
+    {
+      "code": "19747",
+      "classification": "1.2.2.01.003.001",
+      "name": "Obras em Andamento",
+      "source_row": 257
+    },
+    {
+      "code": "3199",
+      "classification": "1.2.2.02",
+      "name": "DEPRECIAÇÃO ACUMULADA",
+      "source_row": 258
+    },
+    {
+      "code": "3206",
+      "classification": "1.2.2.02.001",
+      "name": "DEPRECIAÇÃO ACUMULADA",
+      "source_row": 259
+    },
+    {
+      "code": "3213",
+      "classification": "1.2.2.02.001.001",
+      "name": "IMOVÉIS",
+      "source_row": 260
+    },
+    {
+      "code": "3220",
+      "classification": "1.2.2.02.001.002",
+      "name": "MOVEIS E UTENSÍLIOS",
+      "source_row": 261
+    },
+    {
+      "code": "3227",
+      "classification": "1.2.2.02.001.003",
+      "name": "MÁQUINAS E EQUIPAMENTOS",
+      "source_row": 262
+    },
+    {
+      "code": "3234",
+      "classification": "1.2.2.02.001.004",
+      "name": "VEÍCULOS",
+      "source_row": 263
+    },
+    {
+      "code": "3241",
+      "classification": "1.2.2.02.001.005",
+      "name": "COMPUTADORES E PERIFERICOS",
+      "source_row": 264
+    },
+    {
+      "code": "3248",
+      "classification": "1.2.2.02.001.006",
+      "name": "MATERIAIS DIDATICOS",
+      "source_row": 265
+    },
+    {
+      "code": "3255",
+      "classification": "1.2.2.02.001.007",
+      "name": "TERRENOS",
+      "source_row": 266
+    },
+    {
+      "code": "3262",
+      "classification": "1.2.2.02.001.008",
+      "name": "BIBLIOTECA",
+      "source_row": 267
+    },
+    {
+      "code": "3269",
+      "classification": "1.2.2.02.001.009",
+      "name": "EQUIPAMENTO DE ACÚSTICA",
+      "source_row": 268
+    },
+    {
+      "code": "3276",
+      "classification": "1.2.2.02.001.010",
+      "name": "INSTALAÇÕES",
+      "source_row": 269
+    },
+    {
+      "code": "3283",
+      "classification": "1.2.2.02.001.011",
+      "name": "EQUIPAMENTO DE ENSINO",
+      "source_row": 270
+    },
+    {
+      "code": "3290",
+      "classification": "1.2.2.02.001.012",
+      "name": "EQUIPAMENTOS DE LABORATORIO",
+      "source_row": 271
+    },
+    {
+      "code": "3297",
+      "classification": "1.2.2.02.001.013",
+      "name": "EQUIPAMENTO TELEFÔNICO",
+      "source_row": 272
+    },
+    {
+      "code": "3304",
+      "classification": "1.2.2.02.001.014",
+      "name": "EQUIPAMENTO TERAPEUTICO",
+      "source_row": 273
+    },
+    {
+      "code": "3311",
+      "classification": "1.2.2.02.001.015",
+      "name": "MATERIAL ESPORTIVO",
+      "source_row": 274
+    },
+    {
+      "code": "3318",
+      "classification": "1.2.2.02.001.016",
+      "name": "EQUIPAMENTO DE INFORMÁTICA",
+      "source_row": 275
+    },
+    {
+      "code": "3325",
+      "classification": "1.2.2.02.001.017",
+      "name": "MAQUETES",
+      "source_row": 276
+    },
+    {
+      "code": "3332",
+      "classification": "1.2.2.02.001.018",
+      "name": "LINHA TELEFÔNICA - DIREITO DE USO",
+      "source_row": 277
+    },
+    {
+      "code": "3339",
+      "classification": "1.2.2.02.001.019",
+      "name": "PARQUE DE DIVERSÃO",
+      "source_row": 278
+    },
+    {
+      "code": "19726",
+      "classification": "1.2.3",
+      "name": "INTANGÍVEL",
+      "source_row": 279
+    },
+    {
+      "code": "19754",
+      "classification": "1.2.3.01",
+      "name": "MARCAS E PATENTES",
+      "source_row": 280
+    },
+    {
+      "code": "19761",
+      "classification": "1.2.3.02",
+      "name": "SOFTWARES",
+      "source_row": 281
+    },
+    {
+      "code": "19768",
+      "classification": "1.2.3.02.001",
+      "name": "SOFTWARES",
+      "source_row": 282
+    },
+    {
+      "code": "20286",
+      "classification": "1.2.3.02.001.001",
+      "name": "PROGRAMAS DE INFORMATICA",
+      "source_row": 283
+    },
+    {
+      "code": "3493",
+      "classification": "2",
+      "name": "PASSIVO",
+      "source_row": 284
+    },
+    {
+      "code": "3500",
+      "classification": "2.1",
+      "name": "PASSIVO CIRCULANTE",
+      "source_row": 285
+    },
+    {
+      "code": "3507",
+      "classification": "2.1.1",
+      "name": "EMPRÉSTIMOS E FINANCIAMENTOS",
+      "source_row": 286
+    },
+    {
+      "code": "3514",
+      "classification": "2.1.1.01",
+      "name": "EMPRÉSTIMOS E FINANCIAMENTOS",
+      "source_row": 287
+    },
+    {
+      "code": "3521",
+      "classification": "2.1.1.01.001",
+      "name": "EMPRÉSTIMOS BANCÁRIOS",
+      "source_row": 288
+    },
+    {
+      "code": "3528",
+      "classification": "2.1.1.01.001.001",
+      "name": "Caixa Economica Federal - Ag: 0174 C/C 5198-7",
+      "source_row": 289
+    },
+    {
+      "code": "3535",
+      "classification": "2.1.1.01.001.002",
+      "name": "Itau Ag: 8115 C/C 01569-8",
+      "source_row": 290
+    },
+    {
+      "code": "3542",
+      "classification": "2.1.1.01.001.003",
+      "name": "Bradesco Ag: 309 C/C 124.098-6",
+      "source_row": 291
+    },
+    {
+      "code": "3556",
+      "classification": "2.1.1.01.002",
+      "name": "EMPRÉSTIMOS/FINANCIAMENTOS DE TERCEIROS",
+      "source_row": 292
+    },
+    {
+      "code": "3570",
+      "classification": "2.1.1.01.002.001",
+      "name": "EMPRÉSTIMOS/FINANCIAMENTOS DE TERCEIROS",
+      "source_row": 293
+    },
+    {
+      "code": "20741",
+      "classification": "2.1.1.01.003",
+      "name": "JUROS A INCORRER (-)",
+      "source_row": 294
+    },
+    {
+      "code": "20762",
+      "classification": "2.1.1.01.003.001",
+      "name": "Caixa Economica Federal - Ag: 0174 C/C 5198-7 (-)",
+      "source_row": 295
+    },
+    {
+      "code": "20818",
+      "classification": "2.1.1.01.003.002",
+      "name": "Itau Ag: 8115 C/C 01569-8 (-)",
+      "source_row": 296
+    },
+    {
+      "code": "20825",
+      "classification": "2.1.1.01.003.003",
+      "name": "Bradesco Ag: 309 C/C 124.098-6 (-)",
+      "source_row": 297
+    },
+    {
+      "code": "20769",
+      "classification": "2.1.1.01.004",
+      "name": "LIMITE/CHEQUE ESPECIAL",
+      "source_row": 298
+    },
+    {
+      "code": "20776",
+      "classification": "2.1.1.01.004.001",
+      "name": "ITAU AG 8115 C/C 01569-8",
+      "source_row": 299
+    },
+    {
+      "code": "20783",
+      "classification": "2.1.1.01.004.002",
+      "name": "CEF AG: 0174 C/C 00005198-7",
+      "source_row": 300
+    },
+    {
+      "code": "20790",
+      "classification": "2.1.1.01.004.003",
+      "name": "BRADESCO AG: 309 C/C 124.098-6",
+      "source_row": 301
+    },
+    {
+      "code": "3605",
+      "classification": "2.1.2",
+      "name": "PARCELAMENTO DE ENCARGOS SOCIAIS",
+      "source_row": 302
+    },
+    {
+      "code": "3612",
+      "classification": "2.1.2.01",
+      "name": "PARCELAMENTO DE ENCARGOS SOCIAIS",
+      "source_row": 303
+    },
+    {
+      "code": "3619",
+      "classification": "2.1.2.01.001",
+      "name": "PARCELAMENTO DE ENCARGOS SOCIAIS",
+      "source_row": 304
+    },
+    {
+      "code": "3626",
+      "classification": "2.1.2.01.001.001",
+      "name": "IRRF",
+      "source_row": 305
+    },
+    {
+      "code": "3633",
+      "classification": "2.1.2.01.002",
+      "name": "JUROS A INCORRER (-)",
+      "source_row": 306
+    },
+    {
+      "code": "3640",
+      "classification": "2.1.2.01.002.001",
+      "name": "IRRF (-)",
+      "source_row": 307
+    },
+    {
+      "code": "3661",
+      "classification": "2.1.3",
+      "name": "CONTAS A PAGAR",
+      "source_row": 308
+    },
+    {
+      "code": "3668",
+      "classification": "2.1.3.01",
+      "name": "CONTAS A PAGAR",
+      "source_row": 309
+    },
+    {
+      "code": "3675",
+      "classification": "2.1.3.01.001",
+      "name": "FORNECEDORES - SPERJ",
+      "source_row": 310
+    },
+    {
+      "code": "3703",
+      "classification": "2.1.3.01.001.004",
+      "name": "FORNECEDOR 04 - COVAC SOCIEDADE DE ADVOGADOS",
+      "source_row": 311
+    },
+    {
+      "code": "3710",
+      "classification": "2.1.3.01.001.005",
+      "name": "FORNECEDOR 05 - TRANS EXPERT VIG. E TRANSP. DE VAL",
+      "source_row": 312
+    },
+    {
+      "code": "3724",
+      "classification": "2.1.3.01.001.007",
+      "name": "FORNECEDOR 07 - RESGATE AMBIENTAL TRANSP. RESÍDUO",
+      "source_row": 313
+    },
+    {
+      "code": "3731",
+      "classification": "2.1.3.01.001.008",
+      "name": "FORNECEDOR 08 - PS CONTAX E ASSOC. AUDITORES INDEP",
+      "source_row": 314
+    },
+    {
+      "code": "3738",
+      "classification": "2.1.3.01.001.009",
+      "name": "FORNECEDOR 09 - ALTERDATA TEC. EM INFORMÁTICA LTDA",
+      "source_row": 315
+    },
+    {
+      "code": "3745",
+      "classification": "2.1.3.01.001.010",
+      "name": "FORNECEDOR 10 - MSO´JO MEDICINA E SEGUR. OCUP. S/C",
+      "source_row": 316
+    },
+    {
+      "code": "3752",
+      "classification": "2.1.3.01.001.011",
+      "name": "FORNECEDOR 11 - ICTUS INFORMATICA E TELECOM. LTDA",
+      "source_row": 317
+    },
+    {
+      "code": "3766",
+      "classification": "2.1.3.01.001.013",
+      "name": "FORNECEDOR 13 - OTTO BOCK DO BRASIL TEC. ORTOPÉDIC",
+      "source_row": 318
+    },
+    {
+      "code": "3773",
+      "classification": "2.1.3.01.001.014",
+      "name": "FORNECEDOR 14 - DILEPÉ IND. COM. MAT. ORTOPÉDICO",
+      "source_row": 319
+    },
+    {
+      "code": "3780",
+      "classification": "2.1.3.01.001.015",
+      "name": "FORNECEDOR 15 - POLIOR IND. COM. PROD. ORTOPÉDICOS",
+      "source_row": 320
+    },
+    {
+      "code": "3787",
+      "classification": "2.1.3.01.001.016",
+      "name": "FORNECEDOR 16 - AMEUROPLAST COMERCIO DE PLAST.",
+      "source_row": 321
+    },
+    {
+      "code": "3794",
+      "classification": "2.1.3.01.001.017",
+      "name": "FORNECEDOR 17 - ORTOBRAS IND. E COM. DE ORTOPEDIA",
+      "source_row": 322
+    },
+    {
+      "code": "3808",
+      "classification": "2.1.3.01.001.019",
+      "name": "FORNECEDOR 19 - CDS ART. PLAST. E METAL LTDA.",
+      "source_row": 323
+    },
+    {
+      "code": "4074",
+      "classification": "2.1.3.01.001.028",
+      "name": "FORNECEDOR 28 - BOROTA TEIXEIRA SOCIEDADE ADVOG",
+      "source_row": 324
+    },
+    {
+      "code": "12474",
+      "classification": "2.1.3.01.001.024",
+      "name": "FORNECEDOR 24 - EDITORA ESQUEMA LTDA",
+      "source_row": 325
+    },
+    {
+      "code": "16800",
+      "classification": "2.1.3.01.001.021",
+      "name": "FORNECEDOR 21 - MEDICAL PÉ IND. E COM. DE CALÇADOS",
+      "source_row": 326
+    },
+    {
+      "code": "16807",
+      "classification": "2.1.3.01.001.022",
+      "name": "FORNECEDOR 22 - FIT INOVAÇÃO TECNOLOGICA LTDA",
+      "source_row": 327
+    },
+    {
+      "code": "16828",
+      "classification": "2.1.3.01.001.025",
+      "name": "FORNECEDOR 25 - CADSOFT INFORMÁTICA LTDA.",
+      "source_row": 328
+    },
+    {
+      "code": "16856",
+      "classification": "2.1.3.01.001.029",
+      "name": "FORNECEDOR 29 - TELENIC SERVIÇOS DE TELEFONIA LTDA",
+      "source_row": 329
+    },
+    {
+      "code": "17101",
+      "classification": "2.1.3.01.001.037",
+      "name": "FORNECEDOR 37 - NOVAÇÃO DISTRIB. DE MAT. DE ESCRIT",
+      "source_row": 330
+    },
+    {
+      "code": "17199",
+      "classification": "2.1.3.01.001.041",
+      "name": "FORNECEDOR 41 - BAZAR CENTRAL DO BADÚ LTDA.",
+      "source_row": 331
+    },
+    {
+      "code": "17437",
+      "classification": "2.1.3.01.001.049",
+      "name": "FORNECEDOR 49 - MELLO & SCHORCHT SERVIÇOS LTDA.",
+      "source_row": 332
+    },
+    {
+      "code": "17640",
+      "classification": "2.1.3.01.001.050",
+      "name": "FORNECEDOR 50 - DIAMANTE IMUNIZAÇÃO E CONSERVAÇÃO",
+      "source_row": 333
+    },
+    {
+      "code": "17815",
+      "classification": "2.1.3.01.001.052",
+      "name": "FORNECEDOR 52 - EPOXYFIER IND. COMÉRCIO LTDA.",
+      "source_row": 334
+    },
+    {
+      "code": "17829",
+      "classification": "2.1.3.01.001.053",
+      "name": "FORNECEDOR 53 - BISTURI DISTRIB. DE MAT. HOSPITALA",
+      "source_row": 335
+    },
+    {
+      "code": "18081",
+      "classification": "2.1.3.01.001.057",
+      "name": "FORNECEDOR 57 - JETT COMÉRCIO DE GÁS E REPRES. LTD",
+      "source_row": 336
+    },
+    {
+      "code": "18186",
+      "classification": "2.1.3.01.001.060",
+      "name": "FORNECEDOR 60 - C.G COMERCIO DE LIMPEZA LTDA",
+      "source_row": 337
+    },
+    {
+      "code": "18207",
+      "classification": "2.1.3.01.001.061",
+      "name": "FORNECEDOR 61 - UNIMED RIO COOP. DE TRAB. MÉDICO",
+      "source_row": 338
+    },
+    {
+      "code": "18354",
+      "classification": "2.1.3.01.001.063",
+      "name": "FORNECEDOR 63 - ELEVADORES ALT COMÉRCIO E SERVIÇOS",
+      "source_row": 339
+    },
+    {
+      "code": "22701",
+      "classification": "2.1.3.01.001.006",
+      "name": "FORNECEDOR 06 - BARÃO DA ESPUMA COM.  COUR. PLAST",
+      "source_row": 340
+    },
+    {
+      "code": "22729",
+      "classification": "2.1.3.01.001.002",
+      "name": "FORNECEDOR 02 - ALCELI CORDEIRO RODRIGUES",
+      "source_row": 341
+    },
+    {
+      "code": "22764",
+      "classification": "2.1.3.01.001.055",
+      "name": "FORNECEDOR 55 - W.A CONTACT CENTER LTDA ME",
+      "source_row": 342
+    },
+    {
+      "code": "23401",
+      "classification": "2.1.3.01.001.030",
+      "name": "FORNECEDOR 30 - VILLA PROGRESSO AUTOMECÂNICA",
+      "source_row": 343
+    },
+    {
+      "code": "23408",
+      "classification": "2.1.3.01.001.062",
+      "name": "FORNECEDOR 62 - DISTRIBUIDORA DE ÁGUA HIDROLEVE",
+      "source_row": 344
+    },
+    {
+      "code": "23541",
+      "classification": "2.1.3.01.001.059",
+      "name": "FORNECEDOR 59 - MARCA PONTO SOLUÇÕES E ACESSO",
+      "source_row": 345
+    },
+    {
+      "code": "23548",
+      "classification": "2.1.3.01.001.058",
+      "name": "FORNECEDOR 58 - ORTHOGEN TECNICA ORTOPEDICA LTDA",
+      "source_row": 346
+    },
+    {
+      "code": "23569",
+      "classification": "2.1.3.01.001.056",
+      "name": "FORNECEDOR 56 - PROKINETICS TEC ORTOPEDICA",
+      "source_row": 347
+    },
+    {
+      "code": "23576",
+      "classification": "2.1.3.01.001.054",
+      "name": "FORNECEDOR 54 - RAIO X MATERIAL HOSPITALAR",
+      "source_row": 348
+    },
+    {
+      "code": "23597",
+      "classification": "2.1.3.01.001.051",
+      "name": "FORNECEDOR 51 - TAVOLONE MADEIRAS E COMPENSADOS",
+      "source_row": 349
+    },
+    {
+      "code": "23611",
+      "classification": "2.1.3.01.001.048",
+      "name": "FORNECEDOR 48 - TOTAL PRIORITY C. S. P. LTDA ME",
+      "source_row": 350
+    },
+    {
+      "code": "23618",
+      "classification": "2.1.3.01.001.047",
+      "name": "FORNECEDOR 47 - AD RODRIGUES TRANSPORTES RODOVIARI",
+      "source_row": 351
+    },
+    {
+      "code": "23625",
+      "classification": "2.1.3.01.001.046",
+      "name": "FORNECEDOR 46 - TEMPO LIVRE TURISMO E VIAGENS",
+      "source_row": 352
+    },
+    {
+      "code": "23639",
+      "classification": "2.1.3.01.001.045",
+      "name": "FORNECEDOR 45 - BRASPRESS TRANSPORTES LTDA",
+      "source_row": 353
+    },
+    {
+      "code": "23646",
+      "classification": "2.1.3.01.001.044",
+      "name": "FORNECEDOR 44 - BYSEG EQUIPAMENTOS DE PROTEÇÃO",
+      "source_row": 354
+    },
+    {
+      "code": "23660",
+      "classification": "2.1.3.01.001.043",
+      "name": "FORNECEDOR 43 - FUTURA DISTR. DE MED. PRO DE SAÚDE",
+      "source_row": 355
+    },
+    {
+      "code": "23667",
+      "classification": "2.1.3.01.001.042",
+      "name": "FORNECEDOR 42 - EVA TECNICA BORRACHAS E COMP.",
+      "source_row": 356
+    },
+    {
+      "code": "23674",
+      "classification": "2.1.3.01.001.040",
+      "name": "FORNECEDOR 40 - FCX COMERCIO DE FIBRA E RESINA",
+      "source_row": 357
+    },
+    {
+      "code": "23681",
+      "classification": "2.1.3.01.001.039",
+      "name": "FORNECEDOR 39 - JOFRA ASSESSORIA E CONSULTORIA",
+      "source_row": 358
+    },
+    {
+      "code": "23688",
+      "classification": "2.1.3.01.001.038",
+      "name": "FORNECEDOR 38 - BES SISTEMA INFORMAÇÃO",
+      "source_row": 359
+    },
+    {
+      "code": "23695",
+      "classification": "2.1.3.01.001.036",
+      "name": "FORNECEDOR 36 - TONON E MOURA LAVANDERIA E TINTU",
+      "source_row": 360
+    },
+    {
+      "code": "23793",
+      "classification": "2.1.3.01.001.035",
+      "name": "FORNECEDOR 35 - FREEDOM VEICULOS ELETRICOS LTDA",
+      "source_row": 361
+    },
+    {
+      "code": "23800",
+      "classification": "2.1.3.01.001.034",
+      "name": "FORNECEDOR 34 - ORTOPEDIA BRASIL LTDA",
+      "source_row": 362
+    },
+    {
+      "code": "23807",
+      "classification": "2.1.3.01.001.033",
+      "name": "FORNECEDOR 33 - DUQUEPLAST COM DE PLAST E TEC",
+      "source_row": 363
+    },
+    {
+      "code": "23891",
+      "classification": "2.1.3.01.001.032",
+      "name": "FORNECEDOR 32 - GESSO POLO IND C E S LTDA",
+      "source_row": 364
+    },
+    {
+      "code": "23905",
+      "classification": "2.1.3.01.001.031",
+      "name": "FORNECEDOR 31 - EMPORIUM GONÇALENSE DOS DESCART.",
+      "source_row": 365
+    },
+    {
+      "code": "23919",
+      "classification": "2.1.3.01.001.027",
+      "name": "FORNECEDOR 27 - GABRIEL QUINTANILHA ADVOGADOS",
+      "source_row": 366
+    },
+    {
+      "code": "23940",
+      "classification": "2.1.3.01.001.026",
+      "name": "FORNECEDOR 26 - SOSTHENYS ASSESSORIA CONTABIL",
+      "source_row": 367
+    },
+    {
+      "code": "23947",
+      "classification": "2.1.3.01.001.023",
+      "name": "FORNECEDOR 23 - ETHNOS INDUSTRIA E COMERCIO",
+      "source_row": 368
+    },
+    {
+      "code": "24017",
+      "classification": "2.1.3.01.001.003",
+      "name": "FORNECEDOR 03 - RJ ENERGIA E SUSTENTABILIDADE",
+      "source_row": 369
+    },
+    {
+      "code": "24024",
+      "classification": "2.1.3.01.001.001",
+      "name": "FORNECEDOR 01 - ABOTEC ASSOC. BRASILEIRA DE ORTO",
+      "source_row": 370
+    },
+    {
+      "code": "24031",
+      "classification": "2.1.3.01.001.018",
+      "name": "FORNECEDOR 18 - FIAR TEXTIL IND. E COM. DE PROD.",
+      "source_row": 371
+    },
+    {
+      "code": "24038",
+      "classification": "2.1.3.01.001.012",
+      "name": "FORNECEDOR 12 - INDAIÁ INDÚSTRIA DE BENG. E MULETA",
+      "source_row": 372
+    },
+    {
+      "code": "24045",
+      "classification": "2.1.3.01.001.064",
+      "name": "FORNECEDOR 64 - SAFIRA PROD. E SERVIÇOS GRAFICOS",
+      "source_row": 373
+    },
+    {
+      "code": "24052",
+      "classification": "2.1.3.01.001.065",
+      "name": "FORNECEDOR 65 - BLUMENTHAL DISTRIBUIDORA",
+      "source_row": 374
+    },
+    {
+      "code": "24059",
+      "classification": "2.1.3.01.001.066",
+      "name": "FORNECEDOR 66 - PLANAC MAQUINAS E FERRAMENTAS",
+      "source_row": 375
+    },
+    {
+      "code": "24066",
+      "classification": "2.1.3.01.001.067",
+      "name": "FORNECEDOR 67 - CIRURGICA SAO FELIPE P P/ SAUDE",
+      "source_row": 376
+    },
+    {
+      "code": "24073",
+      "classification": "2.1.3.01.001.068",
+      "name": "FORNECEDOR 68 - FRIO MAXIMO REFRIGERAÇÃO SA",
+      "source_row": 377
+    },
+    {
+      "code": "24080",
+      "classification": "2.1.3.01.001.069",
+      "name": "FORNECEDOR 69 - R1 EQUIPAMENTOS MÉDICOS EIRELI",
+      "source_row": 378
+    },
+    {
+      "code": "24087",
+      "classification": "2.1.3.01.001.070",
+      "name": "FORNECEDOR 70 - CLARA MARIA PEREIRA MARQUES",
+      "source_row": 379
+    },
+    {
+      "code": "24094",
+      "classification": "2.1.3.01.001.071",
+      "name": "FORNECEDOR 71 - NUCLEO INTEGRADO MULTIPROFISSIONAL",
+      "source_row": 380
+    },
+    {
+      "code": "24101",
+      "classification": "2.1.3.01.001.072",
+      "name": "FORNECEDOR 72 - LJ DO BRASIL COMERCIAL LTDA",
+      "source_row": 381
+    },
+    {
+      "code": "24108",
+      "classification": "2.1.3.01.001.073",
+      "name": "FORNECEDOR 73 - ORTHO PAUHER IND. E COM. DISTR.",
+      "source_row": 382
+    },
+    {
+      "code": "24115",
+      "classification": "2.1.3.01.001.074",
+      "name": "FORNECEDOR 74 - MFW INDUSTRIA E COMERCIO DE EQUIP.",
+      "source_row": 383
+    },
+    {
+      "code": "24122",
+      "classification": "2.1.3.01.001.075",
+      "name": "FORNECEDOR 75 - PRIMEIRA OPÇÃO EIRELI",
+      "source_row": 384
+    },
+    {
+      "code": "24164",
+      "classification": "2.1.3.01.001.076",
+      "name": "FORNECEDOR 76 - PODALY PALMILHAS LTDA ME",
+      "source_row": 385
+    },
+    {
+      "code": "24178",
+      "classification": "2.1.3.01.001.077",
+      "name": "FORNECEDOR 77 - POLAR FIX INDUSTRIA E COMERCIO",
+      "source_row": 386
+    },
+    {
+      "code": "24185",
+      "classification": "2.1.3.01.001.078",
+      "name": "FORNECEDOR 78 - ORTOPEDIA JAGUARIBE INDUS. E COMER",
+      "source_row": 387
+    },
+    {
+      "code": "24192",
+      "classification": "2.1.3.01.001.079",
+      "name": "FORNECEDOR 79 - FREITAS & FREITAS ADVOGADOS ASSOC",
+      "source_row": 388
+    },
+    {
+      "code": "24220",
+      "classification": "2.1.3.01.001.080",
+      "name": "FORNECEDOR 80 - A C THEODORA COELHO PSICO. E DESEN",
+      "source_row": 389
+    },
+    {
+      "code": "24227",
+      "classification": "2.1.3.01.001.081",
+      "name": "FORNECEDOR 81 - ARQUIVEI SERVIÇOS ON LINE LTDA",
+      "source_row": 390
+    },
+    {
+      "code": "24234",
+      "classification": "2.1.3.01.001.082",
+      "name": "FORNECEDOR 82 - VIDA TECNOLOGIA DA CONSTRUÇÃO",
+      "source_row": 391
+    },
+    {
+      "code": "24241",
+      "classification": "2.1.3.01.001.083",
+      "name": "FORNECEDOR 83 - ANCESTRAL COMÉRCIO E SERVIÇOS LTDA",
+      "source_row": 392
+    },
+    {
+      "code": "24248",
+      "classification": "2.1.3.01.001.084",
+      "name": "FORNECEDOR 84 - MED SAM DISTRIBUIDORA DE PRODUTOS",
+      "source_row": 393
+    },
+    {
+      "code": "24255",
+      "classification": "2.1.3.01.001.085",
+      "name": "FORNECEDOR 85 - PROSENG PROJETOS E SERVIÇOS DE ENG",
+      "source_row": 394
+    },
+    {
+      "code": "24262",
+      "classification": "2.1.3.01.001.086",
+      "name": "FORNECEDOR 86 - LEQ COMERCIO E SERVICOS AUXILIARES",
+      "source_row": 395
+    },
+    {
+      "code": "24269",
+      "classification": "2.1.3.01.001.086",
+      "name": "FORNECEDOR 87 - MARLI SOARES BORGES - ADVOCACIA",
+      "source_row": 396
+    },
+    {
+      "code": "24276",
+      "classification": "2.1.3.01.001.088",
+      "name": "FORNECEDOR 88 - INSTI. DE PESQUISAS AVANÇADAS EDUC",
+      "source_row": 397
+    },
+    {
+      "code": "24290",
+      "classification": "2.1.3.01.001.089",
+      "name": "FORNECEDOR 89 - IMPRINT 2001 GRAFICA E EDITORA",
+      "source_row": 398
+    },
+    {
+      "code": "24297",
+      "classification": "2.1.3.01.001.090",
+      "name": "FORNECEDOR 90 - TSA AUDITORIES ASSOCIADOS",
+      "source_row": 399
+    },
+    {
+      "code": "24304",
+      "classification": "2.1.3.01.001.091",
+      "name": "FORNECEDOR 91 - TECNOPLASTICO BELFANO LTDA",
+      "source_row": 400
+    },
+    {
+      "code": "24311",
+      "classification": "2.1.3.01.001.092",
+      "name": "FORNECEDOR 92 - DINAMAC LOCAÇÃO E COMERCIO LTDA",
+      "source_row": 401
+    },
+    {
+      "code": "24318",
+      "classification": "2.1.3.01.001.093",
+      "name": "FORNECEDOR 93 - DELLAMED COMERCIO DE ARTIGOS HOSP.",
+      "source_row": 402
+    },
+    {
+      "code": "24325",
+      "classification": "2.1.3.01.001.094",
+      "name": "FORNECEDOR 94 - BKR CALÇADOS LTDA",
+      "source_row": 403
+    },
+    {
+      "code": "24332",
+      "classification": "2.1.3.01.001.095",
+      "name": "FORNECEDOR 95 - S4T COMERCIO E EQUIPAMENTOS P/ ESC",
+      "source_row": 404
+    },
+    {
+      "code": "24339",
+      "classification": "2.1.3.01.001.096",
+      "name": "FORNECEDOR 96 - SUPERA DESCARTÁVEIS COM. DE PROD.",
+      "source_row": 405
+    },
+    {
+      "code": "24346",
+      "classification": "2.1.3.01.001.097",
+      "name": "FORNECEDOR 97 - OGL SUPRIMENTOS LTDA",
+      "source_row": 406
+    },
+    {
+      "code": "24353",
+      "classification": "2.1.3.01.001.098",
+      "name": "FORNECEDOR 98 - ACQUALIMP SOLUÇÕES EM TRATAMENTO",
+      "source_row": 407
+    },
+    {
+      "code": "24360",
+      "classification": "2.1.3.01.001.099",
+      "name": "FORNECEDOR 99 - LAFNE COMERCIO E BAZAR LTDA",
+      "source_row": 408
+    },
+    {
+      "code": "24367",
+      "classification": "2.1.3.01.001.100",
+      "name": "FORNECEDOR 100 - MAXX COMERCIO E EQUIPAMENTOS",
+      "source_row": 409
+    },
+    {
+      "code": "24381",
+      "classification": "2.1.3.01.001.101",
+      "name": "FORNECEDOR 101 - FGB EMPREITEIRA E CONSTRUÇÕES",
+      "source_row": 410
+    },
+    {
+      "code": "24388",
+      "classification": "2.1.3.01.001.102",
+      "name": "FORNECEDOR 102 - WIRLEY FREITAS NUNES",
+      "source_row": 411
+    },
+    {
+      "code": "24395",
+      "classification": "2.1.3.01.001.103",
+      "name": "FORNECEDOR 103 - MARTELÃO 472 M CONSTRUÇÃO",
+      "source_row": 412
+    },
+    {
+      "code": "24402",
+      "classification": "2.1.3.01.001.104",
+      "name": "FORNECEDOR 104 - F S LIMA ANTONUCCI TECHFEET",
+      "source_row": 413
+    },
+    {
+      "code": "24416",
+      "classification": "2.1.3.01.001.106",
+      "name": "FORNECEDOR 106 - SIMBEX COMERCIO DE MULTIPRODUTOS",
+      "source_row": 414
+    },
+    {
+      "code": "24423",
+      "classification": "2.1.3.01.001.107",
+      "name": "FORNECEDOR 107 - JOSIMAR DE ALMEIDA HILARIO",
+      "source_row": 415
+    },
+    {
+      "code": "24430",
+      "classification": "2.1.3.01.001.108",
+      "name": "FORNECEDOR 108 - TRANSPORTADORA RODRIGUES R.",
+      "source_row": 416
+    },
+    {
+      "code": "24437",
+      "classification": "2.1.3.01.001.109",
+      "name": "FORNECEDOR 109 - METRO 2 CONSTRUÇÕES E REFORMAS",
+      "source_row": 417
+    },
+    {
+      "code": "24444",
+      "classification": "2.1.3.01.001.105",
+      "name": "FORNECEDOR 105 - INDIGO BEND COMERCIO, INDÚSTRIA",
+      "source_row": 418
+    },
+    {
+      "code": "24451",
+      "classification": "2.1.3.01.001.110",
+      "name": "FORNECEDOR 110 - FRANSIL CALCADOS LTDA",
+      "source_row": 419
+    },
+    {
+      "code": "24458",
+      "classification": "2.1.3.01.001.111",
+      "name": "FORNECEDOR 111 - HB COMERCIO DE PRODUTOS DE FISIO.",
+      "source_row": 420
+    },
+    {
+      "code": "24465",
+      "classification": "2.1.3.01.001.112",
+      "name": "FORNECEDOR 112 - CONTECOM DISTRIBUIDORA DE MATER.",
+      "source_row": 421
+    },
+    {
+      "code": "24472",
+      "classification": "2.1.3.01.001.113",
+      "name": "FORNECEDOR 113 - VIPCLEAN COMERCIO E SERVIÇO LTDA",
+      "source_row": 422
+    },
+    {
+      "code": "24479",
+      "classification": "2.1.3.01.001.114",
+      "name": "FORNECEDOR 114 - ECO CLEAN DISTRIBUIDORA DE MAT.",
+      "source_row": 423
+    },
+    {
+      "code": "24486",
+      "classification": "2.1.3.01.001.115",
+      "name": "FORNECEDOR 115 - PEMASE INDUSTRIA E COMERCIO DE MA",
+      "source_row": 424
+    },
+    {
+      "code": "24493",
+      "classification": "2.1.3.01.001.116",
+      "name": "FORNECEDOR 116 - CLICK SOLUÇÕES EM TECNOLOGIA LTDA",
+      "source_row": 425
+    },
+    {
+      "code": "24507",
+      "classification": "2.1.3.01.001.117",
+      "name": "FORNECEDOR 117 - NOTA BENE EDITORA E COMUNICAÇÃO",
+      "source_row": 426
+    },
+    {
+      "code": "24514",
+      "classification": "2.1.3.01.001.118",
+      "name": "FORNECEDOR 118 - FERMO CALCADOS LTDA",
+      "source_row": 427
+    },
+    {
+      "code": "24521",
+      "classification": "2.1.3.01.001.119",
+      "name": "FORNECEDOR 119 - PROLIFE PRODUTOS ORTOPEDICOS",
+      "source_row": 428
+    },
+    {
+      "code": "24528",
+      "classification": "2.1.3.01.001.120",
+      "name": "FORNECEDOR 120 - SMART COMPOSITES COMERCIO DE MAT.",
+      "source_row": 429
+    },
+    {
+      "code": "24535",
+      "classification": "2.1.3.01.001.121",
+      "name": "FORNECEDOR 121 - ADAPTARE PODOPOSTUROLOGIA E COM.",
+      "source_row": 430
+    },
+    {
+      "code": "24542",
+      "classification": "2.1.3.01.001.122",
+      "name": "FORNECEDOR 122 - SCOTCH ELETRICA LTDA",
+      "source_row": 431
+    },
+    {
+      "code": "24549",
+      "classification": "2.1.3.01.001.123",
+      "name": "FORNECEDOR 123 - REABTEC MY HAND LTDA",
+      "source_row": 432
+    },
+    {
+      "code": "24556",
+      "classification": "2.1.3.01.001.124",
+      "name": "FORNECEDOR 124 - FAMARA BRASIL INDUSTRIA COMERCIO",
+      "source_row": 433
+    },
+    {
+      "code": "24584",
+      "classification": "2.1.3.01.001.125",
+      "name": "FORNECEDOR 125 - JOUC DISTRIBUIDORA LTDA",
+      "source_row": 434
+    },
+    {
+      "code": "24591",
+      "classification": "2.1.3.01.001.126",
+      "name": "FORNECEDOR 126 - ORTOLAB ORTESE  E PROTESE LTDA",
+      "source_row": 435
+    },
+    {
+      "code": "24598",
+      "classification": "2.1.3.01.001.127",
+      "name": "FORNECEDOR 127 - CONEX FECHOS ESPECIAIS LTDA",
+      "source_row": 436
+    },
+    {
+      "code": "24605",
+      "classification": "2.1.3.01.001.128",
+      "name": "FORNECEDOR 128 - GABRIEL VINICIUS GIMENEZ",
+      "source_row": 437
+    },
+    {
+      "code": "24612",
+      "classification": "2.1.3.01.001.129",
+      "name": "FORNECEDOR 129 - CENTRO DE INTEGRAÇÃO EMPRESA ESC.",
+      "source_row": 438
+    },
+    {
+      "code": "24619",
+      "classification": "2.1.3.01.001.130",
+      "name": "FORNECEDOR 130 - ATACADÃO PAPELEX LTDA",
+      "source_row": 439
+    },
+    {
+      "code": "24626",
+      "classification": "2.1.3.01.001.131",
+      "name": "FORNECEDOR 131 - WL CONSULTORIA E DESEN. DE SISTEM",
+      "source_row": 440
+    },
+    {
+      "code": "24647",
+      "classification": "2.1.3.01.001.132",
+      "name": "FORNECEDOR 132 - SANATEK INDUSTRIA E COMERCIO DE P",
+      "source_row": 441
+    },
+    {
+      "code": "24654",
+      "classification": "2.1.3.01.001.133",
+      "name": "FORNECEDOR 133 - MARCIO E MUNIZ DE CARVALHO BAZAR",
+      "source_row": 442
+    },
+    {
+      "code": "24675",
+      "classification": "2.1.3.01.001.134",
+      "name": "FORNECEDOR 134 - LUKATONER SUPPLIES",
+      "source_row": 443
+    },
+    {
+      "code": "24696",
+      "classification": "2.1.3.01.001.135",
+      "name": "FORNECEDOR 135 - DJJ TRANSPORTES RODOVIARIOS",
+      "source_row": 444
+    },
+    {
+      "code": "24724",
+      "classification": "2.1.3.01.001.136",
+      "name": "FORNECEDOR 136 - KALUNGA S/A",
+      "source_row": 445
+    },
+    {
+      "code": "24738",
+      "classification": "2.1.3.01.001.137",
+      "name": "FORNECEDOR 137 - LAMIEX DISTRIBUIDORA PLAST. LTDA",
+      "source_row": 446
+    },
+    {
+      "code": "24745",
+      "classification": "2.1.3.01.001.138",
+      "name": "FORNECEDOR 138 - REVAL ATACADO DE PAPELARIA LTDA",
+      "source_row": 447
+    },
+    {
+      "code": "24759",
+      "classification": "2.1.3.01.001.139",
+      "name": "FORNECEDOR 139 - CREMER S.A",
+      "source_row": 448
+    },
+    {
+      "code": "24766",
+      "classification": "2.1.3.01.001.140",
+      "name": "FORNECEDOR 140 - PRINT DREAMS 3D ARTIGOS ORTOP.",
+      "source_row": 449
+    },
+    {
+      "code": "24773",
+      "classification": "2.1.3.01.001.141",
+      "name": "FORNECEDOR 141 - VICK COMÉRCIO DE PLÁSTICOS E MET.",
+      "source_row": 450
+    },
+    {
+      "code": "24780",
+      "classification": "2.1.3.01.001.142",
+      "name": "FORNECEDOR 142 - RF ORTOPEDICA LTDA",
+      "source_row": 451
+    },
+    {
+      "code": "24787",
+      "classification": "2.1.3.01.001.143",
+      "name": "FORNECEDOR 143 - HEALTH CLEAN COMERCIAL LTDA",
+      "source_row": 452
+    },
+    {
+      "code": "24794",
+      "classification": "2.1.3.01.001.144",
+      "name": "FORNECEDOR 144 - ASSIM SAÚDE",
+      "source_row": 453
+    },
+    {
+      "code": "24815",
+      "classification": "2.1.3.01.001.145",
+      "name": "FORNECEDOR 145 - AMIL ASSISTÊNCIA MÉDICA INTER S/A",
+      "source_row": 454
+    },
+    {
+      "code": "24822",
+      "classification": "2.1.3.01.001.146",
+      "name": "FORNECEDOR 146 - REFRIGELO CLIMATIZAÇÃO DE AMBIENT",
+      "source_row": 455
+    },
+    {
+      "code": "24829",
+      "classification": "2.1.3.01.001.147",
+      "name": "FORNECEDOR 147 - EPISEG EQUIPAMENTOS DE SEGURANÇA",
+      "source_row": 456
+    },
+    {
+      "code": "24836",
+      "classification": "2.1.3.01.001.148",
+      "name": "FORNECEDOR 148 - ASALIT LTDA",
+      "source_row": 457
+    },
+    {
+      "code": "24850",
+      "classification": "2.1.3.01.001.149",
+      "name": "FORNECEDOR 149 - J&C MAQUINAS LTDA",
+      "source_row": 458
+    },
+    {
+      "code": "24857",
+      "classification": "2.1.3.01.001.150",
+      "name": "FORNECEDOR 150 - JAE ILHA DESCARTAVEIS E LIMPEZA",
+      "source_row": 459
+    },
+    {
+      "code": "24871",
+      "classification": "2.1.3.01.001.151",
+      "name": "FORNECEDOR 151 - SMART DISTRIBUIDORA.COM LTDA",
+      "source_row": 460
+    },
+    {
+      "code": "24878",
+      "classification": "2.1.3.01.001.152",
+      "name": "FORNECEDOR 152 - METALPLAY INDUSTRIA E COMERCIO",
+      "source_row": 461
+    },
+    {
+      "code": "24899",
+      "classification": "2.1.3.01.001.153",
+      "name": "FORNECEDOR 153 - CASTRO E CASTRO COMÉRCIO E IMPORT",
+      "source_row": 462
+    },
+    {
+      "code": "24927",
+      "classification": "2.1.3.01.001.154",
+      "name": "FORNECEDOR 154 - POLYROOF BRASIL LTDA",
+      "source_row": 463
+    },
+    {
+      "code": "24934",
+      "classification": "2.1.3.01.001.155",
+      "name": "FORNECEDOR 155 - OSSUR BRASIL LTDA",
+      "source_row": 464
+    },
+    {
+      "code": "24941",
+      "classification": "2.1.3.01.001.156",
+      "name": "FORNECEDOR 156 - HIDROLIGHT DO BRASIL S/A",
+      "source_row": 465
+    },
+    {
+      "code": "24199",
+      "classification": "2.1.3.01.002",
+      "name": "FORNECEDORES - ESP",
+      "source_row": 466
+    },
+    {
+      "code": "24206",
+      "classification": "2.1.3.01.002.001",
+      "name": "FORNECEDOR 01 - INSTITUTO DE LOSGISTICA TEORIA",
+      "source_row": 467
+    },
+    {
+      "code": "24213",
+      "classification": "2.1.3.01.002.002",
+      "name": "FORNECEDOR 02 - RC DE OLIVEIRA TREINAMENTOS",
+      "source_row": 468
+    },
+    {
+      "code": "24283",
+      "classification": "2.1.3.01.002.003",
+      "name": "FORNECEDOR 03 - JEAN CARLOS CANDIDO PESSOA",
+      "source_row": 469
+    },
+    {
+      "code": "4137",
+      "classification": "2.1.4",
+      "name": "OBRIGAÇÕES TRIBUTÁRIAS",
+      "source_row": 470
+    },
+    {
+      "code": "4144",
+      "classification": "2.1.4.01",
+      "name": "OBRIGAÇÕES TRIBUTÁRIAS",
+      "source_row": 471
+    },
+    {
+      "code": "4151",
+      "classification": "2.1.4.01.001",
+      "name": "IMPOSTOS E CONTRIBUIÇÕES A RECOLHER",
+      "source_row": 472
+    },
+    {
+      "code": "2127",
+      "classification": "2.1.4.01.001.008",
+      "name": "PIS/COFINS/CSLL Retidos",
+      "source_row": 473
+    },
+    {
+      "code": "4172",
+      "classification": "2.1.4.01.001.001",
+      "name": "IRRF - Folha de Pagamento",
+      "source_row": 474
+    },
+    {
+      "code": "4256",
+      "classification": "2.1.4.01.001.006",
+      "name": "IRRF Serviços prestados - PJ",
+      "source_row": 475
+    },
+    {
+      "code": "4354",
+      "classification": "2.1.4.01.001.007",
+      "name": "ISSQN Retidos",
+      "source_row": 476
+    },
+    {
+      "code": "4403",
+      "classification": "2.1.4.01.001.009",
+      "name": "IPTU",
+      "source_row": 477
+    },
+    {
+      "code": "4501",
+      "classification": "2.1.4.01.001.002",
+      "name": "INSS - Folha de Pagamento",
+      "source_row": 478
+    },
+    {
+      "code": "4550",
+      "classification": "2.1.4.01.001.005",
+      "name": "INSS Retido de terceiros - PJ",
+      "source_row": 479
+    },
+    {
+      "code": "4599",
+      "classification": "2.1.4.01.001.003",
+      "name": "FGTS",
+      "source_row": 480
+    },
+    {
+      "code": "4746",
+      "classification": "2.1.4.01.001.004",
+      "name": "PIS - Folha de Pagamento",
+      "source_row": 481
+    },
+    {
+      "code": "4753",
+      "classification": "2.1.4.01.001.010",
+      "name": "INSS - Folha de 13º Salário",
+      "source_row": 482
+    },
+    {
+      "code": "4760",
+      "classification": "2.1.4.01.001.011",
+      "name": "IRRF - Folha de 13º Salário",
+      "source_row": 483
+    },
+    {
+      "code": "4767",
+      "classification": "2.1.4.01.001.012",
+      "name": "FGTS - Folha de 13º Salário",
+      "source_row": 484
+    },
+    {
+      "code": "4774",
+      "classification": "2.1.4.01.001.013",
+      "name": "Empréstimo (Crédito do Trabalhador)",
+      "source_row": 485
+    },
+    {
+      "code": "4977",
+      "classification": "2.1.5",
+      "name": "OBRIGAÇÕES TRABALHISTAS",
+      "source_row": 486
+    },
+    {
+      "code": "4984",
+      "classification": "2.1.5.01",
+      "name": "OBRIGAÇÕES TRABALHISTAS",
+      "source_row": 487
+    },
+    {
+      "code": "4991",
+      "classification": "2.1.5.01.001",
+      "name": "Educação/Saúde/Assistencia Social",
+      "source_row": 488
+    },
+    {
+      "code": "5040",
+      "classification": "2.1.5.01.001.001",
+      "name": "Rescisões Trabalhistas - A Pagar",
+      "source_row": 489
+    },
+    {
+      "code": "5089",
+      "classification": "2.1.5.01.001.002",
+      "name": "Pensão Judicial Alimentícia - A Pagar",
+      "source_row": 490
+    },
+    {
+      "code": "5138",
+      "classification": "2.1.5.01.001.003",
+      "name": "Salários - A Pagar",
+      "source_row": 491
+    },
+    {
+      "code": "5838",
+      "classification": "2.1.5.01.001.004",
+      "name": "13º Salários - A Pagar",
+      "source_row": 492
+    },
+    {
+      "code": "5845",
+      "classification": "2.1.5.01.001.005",
+      "name": "1/3 de Férias - A Pagar",
+      "source_row": 493
+    },
+    {
+      "code": "5222",
+      "classification": "2.1.6",
+      "name": "OUTRAS CONTAS A PAGAR",
+      "source_row": 494
+    },
+    {
+      "code": "5229",
+      "classification": "2.1.6.01",
+      "name": "OUTRAS CONTAS A PAGAR",
+      "source_row": 495
+    },
+    {
+      "code": "5236",
+      "classification": "2.1.6.01.001",
+      "name": "OUTRAS CONTAS A PAGAR",
+      "source_row": 496
+    },
+    {
+      "code": "5390",
+      "classification": "2.1.6.01.001.001",
+      "name": "Energia Elétrica",
+      "source_row": 497
+    },
+    {
+      "code": "5439",
+      "classification": "2.1.6.01.001.002",
+      "name": "Água e Esgoto",
+      "source_row": 498
+    },
+    {
+      "code": "5488",
+      "classification": "2.1.6.01.001.003",
+      "name": "Gás",
+      "source_row": 499
+    },
+    {
+      "code": "5537",
+      "classification": "2.1.6.01.001.004",
+      "name": "Telefone",
+      "source_row": 500
+    },
+    {
+      "code": "5733",
+      "classification": "2.1.6.01.001.005",
+      "name": "Cursos e Palestras",
+      "source_row": 501
+    },
+    {
+      "code": "18046",
+      "classification": "2.1.6.01.001.006",
+      "name": "Alimentos",
+      "source_row": 502
+    },
+    {
+      "code": "18319",
+      "classification": "2.1.6.01.001.007",
+      "name": "Manutenção e Conservação de Máquinas e Equip. - PJ",
+      "source_row": 503
+    },
+    {
+      "code": "18459",
+      "classification": "2.1.6.01.001.008",
+      "name": "Móveis e Utensílios Diversos",
+      "source_row": 504
+    },
+    {
+      "code": "18585",
+      "classification": "2.1.6.01.001.009",
+      "name": "Material Médico e Hospitalar",
+      "source_row": 505
+    },
+    {
+      "code": "18753",
+      "classification": "2.1.6.01.001.010",
+      "name": "Fretes e Carretos",
+      "source_row": 506
+    },
+    {
+      "code": "18830",
+      "classification": "2.1.6.01.001.011",
+      "name": "Material de Expediente",
+      "source_row": 507
+    },
+    {
+      "code": "18893",
+      "classification": "2.1.6.01.001.012",
+      "name": "Material de Conservação de Máquinas e Equipamentos",
+      "source_row": 508
+    },
+    {
+      "code": "19096",
+      "classification": "2.1.6.01.001.013",
+      "name": "Material de Higiene e Limpesa",
+      "source_row": 509
+    },
+    {
+      "code": "20636",
+      "classification": "2.1.6.01.001.014",
+      "name": "Prestadores de Serviços - PJ",
+      "source_row": 510
+    },
+    {
+      "code": "21252",
+      "classification": "2.1.6.01.001.015",
+      "name": "Matreial de Manutenção e Conservação de Veículos",
+      "source_row": 511
+    },
+    {
+      "code": "21490",
+      "classification": "2.1.6.01.001.016",
+      "name": "Comemorações Homenagens e Ornamentação",
+      "source_row": 512
+    },
+    {
+      "code": "21616",
+      "classification": "2.1.6.01.001.017",
+      "name": "Serviços Prestados de Manutenção em Veículos - PJ",
+      "source_row": 513
+    },
+    {
+      "code": "21679",
+      "classification": "2.1.6.01.001.018",
+      "name": "Material de Conservação e Reparo de Imóveis",
+      "source_row": 514
+    },
+    {
+      "code": "21742",
+      "classification": "2.1.6.01.001.019",
+      "name": "Anúncios e Editais",
+      "source_row": 515
+    },
+    {
+      "code": "21805",
+      "classification": "2.1.6.01.001.020",
+      "name": "Detran - Licenciamento e Multas",
+      "source_row": 516
+    },
+    {
+      "code": "21875",
+      "classification": "2.1.6.01.001.021",
+      "name": "Serviços Gráficos",
+      "source_row": 517
+    },
+    {
+      "code": "21938",
+      "classification": "2.1.6.01.001.022",
+      "name": "Prestação de Serviços - Consultas Cadastrais PJ",
+      "source_row": 518
+    },
+    {
+      "code": "22001",
+      "classification": "2.1.6.01.001.023",
+      "name": "Viagens Hospedagens e Diárias",
+      "source_row": 519
+    },
+    {
+      "code": "22064",
+      "classification": "2.1.6.01.001.024",
+      "name": "Internet e Tv Por Assinatura",
+      "source_row": 520
+    },
+    {
+      "code": "22127",
+      "classification": "2.1.6.01.001.025",
+      "name": "Água Potável",
+      "source_row": 521
+    },
+    {
+      "code": "22281",
+      "classification": "2.1.6.01.001.026",
+      "name": "Correios",
+      "source_row": 522
+    },
+    {
+      "code": "22456",
+      "classification": "2.1.6.01.001.027",
+      "name": "Serviços Prestados - PF",
+      "source_row": 523
+    },
+    {
+      "code": "22463",
+      "classification": "2.1.6.01.001.028",
+      "name": "Prestação de Serviços Jurídicos (Advocatícios)- PJ",
+      "source_row": 524
+    },
+    {
+      "code": "22470",
+      "classification": "2.1.6.01.001.029",
+      "name": "Devolução de Pagamengo Indevido ao Cliente",
+      "source_row": 525
+    },
+    {
+      "code": "22477",
+      "classification": "2.1.6.01.001.030",
+      "name": "Processos trabalhistas a pagar",
+      "source_row": 526
+    },
+    {
+      "code": "22484",
+      "classification": "2.1.6.01.001.031",
+      "name": "Procesos cíveis a pagar",
+      "source_row": 527
+    },
+    {
+      "code": "22491",
+      "classification": "2.1.6.01.001.032",
+      "name": "Apólice de Seguro",
+      "source_row": 528
+    },
+    {
+      "code": "22498",
+      "classification": "2.1.6.01.001.033",
+      "name": "Equipamentos de Informatica",
+      "source_row": 529
+    },
+    {
+      "code": "22505",
+      "classification": "2.1.6.01.001.034",
+      "name": "Convênios - Materiais e Equipamentos A Pagar",
+      "source_row": 530
+    },
+    {
+      "code": "22512",
+      "classification": "2.1.6.01.001.035",
+      "name": "Cartão de Crédito a Pagar",
+      "source_row": 531
+    },
+    {
+      "code": "6076",
+      "classification": "2.1.7",
+      "name": "PROVISÃO DE CONTINGÊNCIAS",
+      "source_row": 532
+    },
+    {
+      "code": "6083",
+      "classification": "2.1.7.01",
+      "name": "PROVISÕES DE CONTINGÊNCIAS",
+      "source_row": 533
+    },
+    {
+      "code": "6090",
+      "classification": "2.1.7.01.001",
+      "name": "PROVISÃO DE CONTINGÊNCIAS",
+      "source_row": 534
+    },
+    {
+      "code": "6097",
+      "classification": "2.1.7.01.001.001",
+      "name": "Provisão de Ações Trabalhista",
+      "source_row": 535
+    },
+    {
+      "code": "6195",
+      "classification": "2.1.7.01.001.002",
+      "name": "Provisão de Ações Cíveis",
+      "source_row": 536
+    },
+    {
+      "code": "6202",
+      "classification": "2.1.7.01.001.003",
+      "name": "Provisão de Ações Judiciais - Ativo",
+      "source_row": 537
+    },
+    {
+      "code": "12439",
+      "classification": "2.1.8",
+      "name": "OBRIGAÇÕES DIVERSAS",
+      "source_row": 538
+    },
+    {
+      "code": "12453",
+      "classification": "2.1.8.01",
+      "name": "UTILIDADES E SERVIÇOS PÚBLICOS",
+      "source_row": 539
+    },
+    {
+      "code": "12460",
+      "classification": "2.1.8.01.001",
+      "name": "UTILIDADES E SERVIÇOS PÚBLICOS",
+      "source_row": 540
+    },
+    {
+      "code": "12467",
+      "classification": "2.1.8.01.001.001",
+      "name": "Convênios a Executar",
+      "source_row": 541
+    },
+    {
+      "code": "12607",
+      "classification": "2.1.9",
+      "name": "PARCELAMENTO",
+      "source_row": 542
+    },
+    {
+      "code": "12614",
+      "classification": "2.1.9.01",
+      "name": "PARCELAMENTO DE IMPOSTOS",
+      "source_row": 543
+    },
+    {
+      "code": "16058",
+      "classification": "2.1.9.01.001",
+      "name": "PARCELAMENTO DE IMPOSTOS",
+      "source_row": 544
+    },
+    {
+      "code": "16065",
+      "classification": "2.1.9.01.001.001",
+      "name": "Parcelamento IPTU",
+      "source_row": 545
+    },
+    {
+      "code": "16072",
+      "classification": "2.1.9.01.001.002",
+      "name": "Parcelamento ISS",
+      "source_row": 546
+    },
+    {
+      "code": "23520",
+      "classification": "2.1.9.02",
+      "name": "PARCELAMENTO ENCARGOS SOCIAIS",
+      "source_row": 547
+    },
+    {
+      "code": "23527",
+      "classification": "2.1.9.02.001",
+      "name": "PARCELAMENTO ENCARGOS SOCIAIS",
+      "source_row": 548
+    },
+    {
+      "code": "23534",
+      "classification": "2.1.9.02.001.001",
+      "name": "Parcelamento  FGTS",
+      "source_row": 549
+    },
+    {
+      "code": "23562",
+      "classification": "2.1.9.02.001.002",
+      "name": "Multas e Infrações Diversas",
+      "source_row": 550
+    },
+    {
+      "code": "6314",
+      "classification": "2.2",
+      "name": "PASSIVO NÃO CIRCULANTE",
+      "source_row": 551
+    },
+    {
+      "code": "20797",
+      "classification": "2.2.1",
+      "name": "EMPRÉSTIMOS E FINANCIAMENTOS",
+      "source_row": 552
+    },
+    {
+      "code": "20804",
+      "classification": "2.2.1.01",
+      "name": "EMPRÉSTIMOS E FINANCIAMENTOS",
+      "source_row": 553
+    },
+    {
+      "code": "20811",
+      "classification": "2.2.1.01.001",
+      "name": "EMPRÉSTIMOS BANCÁRIOS",
+      "source_row": 554
+    },
+    {
+      "code": "20832",
+      "classification": "2.2.1.01.001.001",
+      "name": "Caixa Economica Federal - Ag: 0174 C/C 5198-7",
+      "source_row": 555
+    },
+    {
+      "code": "20839",
+      "classification": "2.2.1.01.001.002",
+      "name": "Itau Ag: 8115 C/C 01569-8",
+      "source_row": 556
+    },
+    {
+      "code": "20944",
+      "classification": "2.2.1.01.001.003",
+      "name": "Bradesco Ag: 309 C/C 124.098-6",
+      "source_row": 557
+    },
+    {
+      "code": "20846",
+      "classification": "2.2.1.02",
+      "name": "PARCELAMENTOS TRIBUTÁRIOS",
+      "source_row": 558
+    },
+    {
+      "code": "20874",
+      "classification": "2.2.1.02.001",
+      "name": "PARCELAMENTO TRIBUTOS MUNICIPAIS",
+      "source_row": 559
+    },
+    {
+      "code": "20881",
+      "classification": "2.2.1.02.001.001",
+      "name": "Parcelamento IPTU",
+      "source_row": 560
+    },
+    {
+      "code": "20923",
+      "classification": "2.2.1.02.001.002",
+      "name": "Parcelamento ISS",
+      "source_row": 561
+    },
+    {
+      "code": "20909",
+      "classification": "2.2.1.02.002",
+      "name": "PARCELAMENTO ENCARGOS SOCIAS",
+      "source_row": 562
+    },
+    {
+      "code": "20916",
+      "classification": "2.2.1.02.002.001",
+      "name": "PARCELAMENTO FGTS",
+      "source_row": 563
+    },
+    {
+      "code": "23555",
+      "classification": "2.2.1.02.002.002",
+      "name": "PARCELAMENTO IRRF S/FP",
+      "source_row": 564
+    },
+    {
+      "code": "20930",
+      "classification": "2.2.1.02.003",
+      "name": "PARCELAMENTOS DIVERSOS",
+      "source_row": 565
+    },
+    {
+      "code": "20937",
+      "classification": "2.2.1.02.003.001",
+      "name": "MULTAS E INFRAÇÕES",
+      "source_row": 566
+    },
+    {
+      "code": "20853",
+      "classification": "2.2.2",
+      "name": "JUROS E ACRESCIMOS (-)",
+      "source_row": 567
+    },
+    {
+      "code": "20860",
+      "classification": "2.2.2.01",
+      "name": "JUROS A INCORRER (-)",
+      "source_row": 568
+    },
+    {
+      "code": "20867",
+      "classification": "2.2.2.01.001",
+      "name": "JUROS A INCORRER (-)",
+      "source_row": 569
+    },
+    {
+      "code": "20888",
+      "classification": "2.2.2.01.001.001",
+      "name": "Caixa Economica Federal - Ag: 0174 C/C 5198-7 (-)",
+      "source_row": 570
+    },
+    {
+      "code": "20895",
+      "classification": "2.2.2.01.001.002",
+      "name": "IRRF (-)",
+      "source_row": 571
+    },
+    {
+      "code": "20902",
+      "classification": "2.2.2.01.001.003",
+      "name": "Itau Ag: 8115 C/C 01569-8 (-)",
+      "source_row": 572
+    },
+    {
+      "code": "20951",
+      "classification": "2.2.2.01.001.004",
+      "name": "Bradesco Ag: 309 C/C 124.098-6 (-)",
+      "source_row": 573
+    },
+    {
+      "code": "6321",
+      "classification": "2.3",
+      "name": "PATRIMÔNIO LÍQUIDO",
+      "source_row": 574
+    },
+    {
+      "code": "6328",
+      "classification": "2.3.1",
+      "name": "PATRIMONIO SOCIAL",
+      "source_row": 575
+    },
+    {
+      "code": "6335",
+      "classification": "2.3.1.01",
+      "name": "PATRIMONIO SOCIAL",
+      "source_row": 576
+    },
+    {
+      "code": "6342",
+      "classification": "2.3.1.01.001",
+      "name": "PATRIMONIO SOCIAL",
+      "source_row": 577
+    },
+    {
+      "code": "6349",
+      "classification": "2.3.1.01.001.001",
+      "name": "Patrimônio Social",
+      "source_row": 578
+    },
+    {
+      "code": "20545",
+      "classification": "2.3.1.01.001.002",
+      "name": "Fundo Patrimonial -  Doações e Subvenções",
+      "source_row": 579
+    },
+    {
+      "code": "6356",
+      "classification": "2.3.2",
+      "name": "AJUSTES DE EXERCÍCIOS",
+      "source_row": 580
+    },
+    {
+      "code": "6363",
+      "classification": "2.3.2.01",
+      "name": "AJUSTES EXERCÍCIOS ANTERIORES",
+      "source_row": 581
+    },
+    {
+      "code": "6370",
+      "classification": "2.3.2.01.001",
+      "name": "AJUSTE DE EXERCÍCIOS ANTERIORES PROVISÕES",
+      "source_row": 582
+    },
+    {
+      "code": "6377",
+      "classification": "2.3.2.01.001.001",
+      "name": "Ajuste de Exercícios Anteriores - Provisões",
+      "source_row": 583
+    },
+    {
+      "code": "6384",
+      "classification": "2.3.3",
+      "name": "Superávit / Déficit do Exercício",
+      "source_row": 584
+    },
+    {
+      "code": "6391",
+      "classification": "2.3.3.01",
+      "name": "Superávit ou Déficit do Exercício",
+      "source_row": 585
+    },
+    {
+      "code": "6398",
+      "classification": "2.3.3.01.001",
+      "name": "Superávit ou Déficit do Exercício",
+      "source_row": 586
+    },
+    {
+      "code": "6405",
+      "classification": "2.3.3.01.001.002",
+      "name": "Superávit ou Déficit do Exercício",
+      "source_row": 587
+    },
+    {
+      "code": "6406",
+      "classification": "2.3.3.01.001.003",
+      "name": "Superávit ou Déficit do Exercício II",
+      "source_row": 588
+    },
+    {
+      "code": "21204",
+      "classification": "2.3.3.01.001.001",
+      "name": "Superávit ou Déficit do Exercício",
+      "source_row": 589
+    },
+    {
+      "code": "6412",
+      "classification": "3",
+      "name": "RECEITA",
+      "source_row": 590
+    },
+    {
+      "code": "6419",
+      "classification": "3.1",
+      "name": "Receitas Operacionais",
+      "source_row": 591
+    },
+    {
+      "code": "6426",
+      "classification": "3.1.1",
+      "name": "Mantenedora",
+      "source_row": 592
+    },
+    {
+      "code": "6517",
+      "classification": "3.1.1.01",
+      "name": "Receitas de Doações",
+      "source_row": 593
+    },
+    {
+      "code": "6524",
+      "classification": "3.1.1.01.001",
+      "name": "Doações",
+      "source_row": 594
+    },
+    {
+      "code": "21133",
+      "classification": "3.1.1.01.001.003",
+      "name": "Campanha de Doação da Enel",
+      "source_row": 595
+    },
+    {
+      "code": "21140",
+      "classification": "3.1.1.01.001.004",
+      "name": "Honorários de Terceiros (-)",
+      "source_row": 596
+    },
+    {
+      "code": "23716",
+      "classification": "3.1.1.01.001.001",
+      "name": "Doações - PF",
+      "source_row": 597
+    },
+    {
+      "code": "23723",
+      "classification": "3.1.1.01.001.002",
+      "name": "Doações - PJ",
+      "source_row": 598
+    },
+    {
+      "code": "6748",
+      "classification": "3.1.1.01.002",
+      "name": "Doações Poder Público",
+      "source_row": 599
+    },
+    {
+      "code": "6755",
+      "classification": "3.1.1.01.002.001",
+      "name": "Doações Federais",
+      "source_row": 600
+    },
+    {
+      "code": "6762",
+      "classification": "3.1.1.01.002.002",
+      "name": "Doações Estaduais",
+      "source_row": 601
+    },
+    {
+      "code": "6769",
+      "classification": "3.1.1.01.002.003",
+      "name": "Doações Municipais",
+      "source_row": 602
+    },
+    {
+      "code": "6839",
+      "classification": "3.1.1.01.002.004",
+      "name": "Doações Estrangeiras",
+      "source_row": 603
+    },
+    {
+      "code": "6874",
+      "classification": "3.1.1.01.003",
+      "name": "Outras Receitas",
+      "source_row": 604
+    },
+    {
+      "code": "7049",
+      "classification": "3.1.1.01.003.001",
+      "name": "Sócios Contribuintes",
+      "source_row": 605
+    },
+    {
+      "code": "7056",
+      "classification": "3.1.1.01.003.002",
+      "name": "Sócios Solidário",
+      "source_row": 606
+    },
+    {
+      "code": "23758",
+      "classification": "3.1.1.01.004",
+      "name": "Receitas de Serviços Voluntários",
+      "source_row": 607
+    },
+    {
+      "code": "23765",
+      "classification": "3.1.1.01.004.001",
+      "name": "Serviços Voluntário - Diretoria Estatutária",
+      "source_row": 608
+    },
+    {
+      "code": "23772",
+      "classification": "3.1.1.01.004.002",
+      "name": "Serviços Voluntários - Conselho Fiscal",
+      "source_row": 609
+    },
+    {
+      "code": "23884",
+      "classification": "3.1.1.01.004.003",
+      "name": "Serviços Voluntários - Diversos",
+      "source_row": 610
+    },
+    {
+      "code": "6699",
+      "classification": "3.1.1.02",
+      "name": "Receita de Particulares",
+      "source_row": 611
+    },
+    {
+      "code": "6741",
+      "classification": "3.1.1.02.001",
+      "name": "Receitas de Particulares",
+      "source_row": 612
+    },
+    {
+      "code": "6706",
+      "classification": "3.1.1.02.001.001",
+      "name": "Receita - Consultas",
+      "source_row": 613
+    },
+    {
+      "code": "6713",
+      "classification": "3.1.1.02.001.002",
+      "name": "Receita - Psicologia",
+      "source_row": 614
+    },
+    {
+      "code": "6720",
+      "classification": "3.1.1.02.001.003",
+      "name": "Receita - Correção Postural",
+      "source_row": 615
+    },
+    {
+      "code": "6727",
+      "classification": "3.1.1.02.001.004",
+      "name": "Receita - Acupuntura",
+      "source_row": 616
+    },
+    {
+      "code": "6734",
+      "classification": "3.1.1.02.001.005",
+      "name": "Receita - Agulhas de Acupuntura",
+      "source_row": 617
+    },
+    {
+      "code": "6909",
+      "classification": "3.1.1.02.001.019",
+      "name": "Receita - Xerox",
+      "source_row": 618
+    },
+    {
+      "code": "19229",
+      "classification": "3.1.1.02.001.006",
+      "name": "Receita - Fonoaudiologia",
+      "source_row": 619
+    },
+    {
+      "code": "19236",
+      "classification": "3.1.1.02.001.007",
+      "name": "Receita - Terapia Ocupacional",
+      "source_row": 620
+    },
+    {
+      "code": "19243",
+      "classification": "3.1.1.02.001.008",
+      "name": "Receita - Órtese e Prótese",
+      "source_row": 621
+    },
+    {
+      "code": "19250",
+      "classification": "3.1.1.02.001.009",
+      "name": "Receita - Fisioterapia",
+      "source_row": 622
+    },
+    {
+      "code": "19257",
+      "classification": "3.1.1.02.001.010",
+      "name": "Receita - Assim Saúde",
+      "source_row": 623
+    },
+    {
+      "code": "19264",
+      "classification": "3.1.1.02.001.011",
+      "name": "Receita - Postal Saúde",
+      "source_row": 624
+    },
+    {
+      "code": "19271",
+      "classification": "3.1.1.02.001.012",
+      "name": "Receita - Bradesco Saúde",
+      "source_row": 625
+    },
+    {
+      "code": "19278",
+      "classification": "3.1.1.02.001.013",
+      "name": "Receita - Cassi Saúde",
+      "source_row": 626
+    },
+    {
+      "code": "21091",
+      "classification": "3.1.1.02.001.014",
+      "name": "Receita - Caixa Saúde",
+      "source_row": 627
+    },
+    {
+      "code": "21154",
+      "classification": "3.1.1.02.001.015",
+      "name": "Receita - Mediservice",
+      "source_row": 628
+    },
+    {
+      "code": "21224",
+      "classification": "3.1.1.02.001.016",
+      "name": "Receita - Gama",
+      "source_row": 629
+    },
+    {
+      "code": "21231",
+      "classification": "3.1.1.02.001.017",
+      "name": "Receita - Psiquiatria",
+      "source_row": 630
+    },
+    {
+      "code": "21238",
+      "classification": "3.1.1.02.001.018",
+      "name": "Receita - Dasa Saúde",
+      "source_row": 631
+    },
+    {
+      "code": "21245",
+      "classification": "3.1.1.02.001.020",
+      "name": "Receita - Leve Saúde",
+      "source_row": 632
+    },
+    {
+      "code": "19194",
+      "classification": "3.1.1.03",
+      "name": "Escola Superior Pestalozzi - ESP",
+      "source_row": 633
+    },
+    {
+      "code": "7322",
+      "classification": "3.1.1.03.001",
+      "name": "Taxas Para Expedição de Documentos Diversos",
+      "source_row": 634
+    },
+    {
+      "code": "19222",
+      "classification": "3.1.1.03.001.001",
+      "name": "Graduação - Taxa Expedição de Documentos",
+      "source_row": 635
+    },
+    {
+      "code": "23044",
+      "classification": "3.1.1.03.001.002",
+      "name": "Pós Graduação - Taxa Expedição de Documentos",
+      "source_row": 636
+    },
+    {
+      "code": "23051",
+      "classification": "3.1.1.03.002",
+      "name": "Mensalidades",
+      "source_row": 637
+    },
+    {
+      "code": "23058",
+      "classification": "3.1.1.03.002.001",
+      "name": "Graduação",
+      "source_row": 638
+    },
+    {
+      "code": "23065",
+      "classification": "3.1.1.03.002.002",
+      "name": "Pós-Graduação",
+      "source_row": 639
+    },
+    {
+      "code": "23079",
+      "classification": "3.1.1.03.002.003",
+      "name": "Cursos Livres",
+      "source_row": 640
+    },
+    {
+      "code": "23086",
+      "classification": "3.1.1.03.002.004",
+      "name": "Vestibular",
+      "source_row": 641
+    },
+    {
+      "code": "6643",
+      "classification": "3.1.2",
+      "name": "Receitas de Saúde",
+      "source_row": 642
+    },
+    {
+      "code": "6650",
+      "classification": "3.1.2.01",
+      "name": "Receita de Serviços de Saúde",
+      "source_row": 643
+    },
+    {
+      "code": "6657",
+      "classification": "3.1.2.01.001",
+      "name": "Receita - Contratos de Prestações de Serviços",
+      "source_row": 644
+    },
+    {
+      "code": "6664",
+      "classification": "3.1.2.01.001.001",
+      "name": "Sistema Único de Saúde - SUS",
+      "source_row": 645
+    },
+    {
+      "code": "6671",
+      "classification": "3.1.2.01.001.002",
+      "name": "Fundação Municipal de Saúde de Niterói",
+      "source_row": 646
+    },
+    {
+      "code": "23737",
+      "classification": "3.1.2.01.001.004",
+      "name": "Reabilitação Oficina Ortopédica - CER II",
+      "source_row": 647
+    },
+    {
+      "code": "23744",
+      "classification": "3.1.2.01.001.005",
+      "name": "Custeio Reabilitação - CER ll",
+      "source_row": 648
+    },
+    {
+      "code": "23751",
+      "classification": "3.1.2.01.001.003",
+      "name": "Loteria do Estado do Rio de Janeiro",
+      "source_row": 649
+    },
+    {
+      "code": "23779",
+      "classification": "3.1.2.01.001.006",
+      "name": "Ministério da Saúde",
+      "source_row": 650
+    },
+    {
+      "code": "24920",
+      "classification": "3.1.2.01.001.007",
+      "name": "Tea 20% - CER II",
+      "source_row": 651
+    },
+    {
+      "code": "23786",
+      "classification": "3.1.2.01.002",
+      "name": "Receita - Contratos de Fomento",
+      "source_row": 652
+    },
+    {
+      "code": "23828",
+      "classification": "3.1.2.01.003",
+      "name": "Receita - Convênio",
+      "source_row": 653
+    },
+    {
+      "code": "23870",
+      "classification": "3.1.2.01.003.001",
+      "name": "Ministério da Saúde",
+      "source_row": 654
+    },
+    {
+      "code": "23898",
+      "classification": "3.1.2.01.003.002",
+      "name": "Funda. Muni. de Saúde de Niterói (Governo Federal)",
+      "source_row": 655
+    },
+    {
+      "code": "23912",
+      "classification": "3.1.2.01.003.003",
+      "name": "Fundo Nacional de Saúde (Emenda Parlamentar)",
+      "source_row": 656
+    },
+    {
+      "code": "23954",
+      "classification": "3.1.2.01.003.004",
+      "name": "Tribunal de Justiça do Estado do Rio de Janeiro",
+      "source_row": 657
+    },
+    {
+      "code": "24409",
+      "classification": "3.1.2.01.003.005",
+      "name": "Governo Federal",
+      "source_row": 658
+    },
+    {
+      "code": "24682",
+      "classification": "3.1.2.01.003.006",
+      "name": "Prefeitura Municipal de Niterói (Programa NitNota)",
+      "source_row": 659
+    },
+    {
+      "code": "6930",
+      "classification": "3.1.3",
+      "name": "Receitas de Assistência Social",
+      "source_row": 660
+    },
+    {
+      "code": "7350",
+      "classification": "3.1.3.01",
+      "name": "Receita de Assistência Social",
+      "source_row": 661
+    },
+    {
+      "code": "6937",
+      "classification": "3.1.3.01.001",
+      "name": "Receita - Contrato de Fomento",
+      "source_row": 662
+    },
+    {
+      "code": "7553",
+      "classification": "3.1.3.01.002",
+      "name": "Receita - Convênio",
+      "source_row": 663
+    },
+    {
+      "code": "21260",
+      "classification": "3.1.3.01.002.001",
+      "name": "Loteria do Estado do Rio de Janeiro",
+      "source_row": 664
+    },
+    {
+      "code": "21288",
+      "classification": "3.1.3.01.002.002",
+      "name": "Sec. Muni. de Assistência Social (Emenda Parlamen)",
+      "source_row": 665
+    },
+    {
+      "code": "21295",
+      "classification": "3.1.3.01.002.003",
+      "name": "Fenapestalozzi",
+      "source_row": 666
+    },
+    {
+      "code": "23863",
+      "classification": "3.1.4",
+      "name": "Receitas de Educação",
+      "source_row": 667
+    },
+    {
+      "code": "19586",
+      "classification": "3.1.4.01",
+      "name": "Receitas de Educação",
+      "source_row": 668
+    },
+    {
+      "code": "19579",
+      "classification": "3.1.4.01.001",
+      "name": "Receitas de Convenios",
+      "source_row": 669
+    },
+    {
+      "code": "21246",
+      "classification": "3.1.4.01.001.001",
+      "name": "Fundo Nacional de Des. Educação - FNDE",
+      "source_row": 670
+    },
+    {
+      "code": "21267",
+      "classification": "3.1.4.01.001.003",
+      "name": "Loteria do Estado do Rio de Janeiro",
+      "source_row": 671
+    },
+    {
+      "code": "21274",
+      "classification": "3.1.4.01.001.002",
+      "name": "Convênio - Programa Dinheiro Direto na Escola-PDDE",
+      "source_row": 672
+    },
+    {
+      "code": "21281",
+      "classification": "3.1.4.01.001.004",
+      "name": "Fundação Municipal de Educação de Niterói/RJ",
+      "source_row": 673
+    },
+    {
+      "code": "19600",
+      "classification": "3.1.4.01.002",
+      "name": "Receitas - Contrato de Fomento",
+      "source_row": 674
+    },
+    {
+      "code": "19593",
+      "classification": "3.1.4.01.002.001",
+      "name": "Fund. Municipal Educação - FME",
+      "source_row": 675
+    },
+    {
+      "code": "7021",
+      "classification": "3.1.5",
+      "name": "Receitas Financeiras",
+      "source_row": 676
+    },
+    {
+      "code": "7028",
+      "classification": "3.1.5.01",
+      "name": "Receitas Financeiras",
+      "source_row": 677
+    },
+    {
+      "code": "7035",
+      "classification": "3.1.5.01.001",
+      "name": "Rendimento de Poupança e Aplicação",
+      "source_row": 678
+    },
+    {
+      "code": "7042",
+      "classification": "3.1.5.01.001.002",
+      "name": "Rendimento de Poupança e Aplicação",
+      "source_row": 679
+    },
+    {
+      "code": "7063",
+      "classification": "3.1.5.02",
+      "name": "Ganhos no Mercado Mobiliário",
+      "source_row": 680
+    },
+    {
+      "code": "7070",
+      "classification": "3.1.5.02.002",
+      "name": "Ganhos no Mercado Mobiliário",
+      "source_row": 681
+    },
+    {
+      "code": "7077",
+      "classification": "3.1.5.02.002.001",
+      "name": "Ganhos no Mercado Mobiliário",
+      "source_row": 682
+    },
+    {
+      "code": "7084",
+      "classification": "3.1.5.03",
+      "name": "Juros Ativos",
+      "source_row": 683
+    },
+    {
+      "code": "7091",
+      "classification": "3.1.5.03.001",
+      "name": "Juros Ativos",
+      "source_row": 684
+    },
+    {
+      "code": "7098",
+      "classification": "3.1.5.03.001.001",
+      "name": "Juros Ativos",
+      "source_row": 685
+    },
+    {
+      "code": "7119",
+      "classification": "3.1.5.04",
+      "name": "Descontos Obtidos",
+      "source_row": 686
+    },
+    {
+      "code": "7126",
+      "classification": "3.1.5.04.001",
+      "name": "Descontos Obtidos",
+      "source_row": 687
+    },
+    {
+      "code": "22225",
+      "classification": "3.1.5.04.001.001",
+      "name": "Descontos Obtidos",
+      "source_row": 688
+    },
+    {
+      "code": "7154",
+      "classification": "3.2",
+      "name": "Outras Receitas - Mantededora",
+      "source_row": 689
+    },
+    {
+      "code": "7161",
+      "classification": "3.2.1",
+      "name": "Ganho Venda de Imobilizado",
+      "source_row": 690
+    },
+    {
+      "code": "7168",
+      "classification": "3.2.1.01",
+      "name": "Ganho Venda de Imobilizado",
+      "source_row": 691
+    },
+    {
+      "code": "20559",
+      "classification": "3.2.1.01.001",
+      "name": "Ganho Venda de Imobilizado",
+      "source_row": 692
+    },
+    {
+      "code": "7175",
+      "classification": "3.2.1.01.001.002",
+      "name": "Ganho na Venda de Veículos",
+      "source_row": 693
+    },
+    {
+      "code": "7182",
+      "classification": "3.2.1.01.001.003",
+      "name": "Ganho na Venda de Móveis e Utensílios",
+      "source_row": 694
+    },
+    {
+      "code": "20580",
+      "classification": "3.2.1.01.001.001",
+      "name": "Ganho Venda de Imóveis",
+      "source_row": 695
+    },
+    {
+      "code": "23814",
+      "classification": "3.2.1.01.002",
+      "name": "Outras Receitas - Outros Bens",
+      "source_row": 696
+    },
+    {
+      "code": "23821",
+      "classification": "3.2.1.01.002.001",
+      "name": "Outras Receitas - Outros Bens",
+      "source_row": 697
+    },
+    {
+      "code": "7210",
+      "classification": "3.2.2",
+      "name": "Receitas de Alugueis",
+      "source_row": 698
+    },
+    {
+      "code": "7217",
+      "classification": "3.2.2.01",
+      "name": "Receitas com  Alugueis de Espaço",
+      "source_row": 699
+    },
+    {
+      "code": "22771",
+      "classification": "3.2.2.01.001",
+      "name": "Receitas com Alugueis",
+      "source_row": 700
+    },
+    {
+      "code": "22778",
+      "classification": "3.2.2.01.001.001",
+      "name": "Aluguel Antena TIM",
+      "source_row": 701
+    },
+    {
+      "code": "23926",
+      "classification": "3.2.2.01.001.002",
+      "name": "Aluguel Cantina",
+      "source_row": 702
+    },
+    {
+      "code": "23933",
+      "classification": "3.2.2.01.001.003",
+      "name": "Aluguel de Salas",
+      "source_row": 703
+    },
+    {
+      "code": "24003",
+      "classification": "3.2.2.01.001.006",
+      "name": "Descontos Concedidos de Aluguel (-)",
+      "source_row": 704
+    },
+    {
+      "code": "23975",
+      "classification": "3.2.3",
+      "name": "Receitas de Mensalidades",
+      "source_row": 705
+    },
+    {
+      "code": "23982",
+      "classification": "3.2.3.01",
+      "name": "Receitas de  Mensalidades",
+      "source_row": 706
+    },
+    {
+      "code": "23989",
+      "classification": "3.2.3.01.001",
+      "name": "Receitas de Mensalidades de Cursos",
+      "source_row": 707
+    },
+    {
+      "code": "23996",
+      "classification": "3.2.3.01.001.001",
+      "name": "Cursos Livres",
+      "source_row": 708
+    },
+    {
+      "code": "7259",
+      "classification": "3.3",
+      "name": "Isenções Usufruídas",
+      "source_row": 709
+    },
+    {
+      "code": "7266",
+      "classification": "3.3.1",
+      "name": "INSS",
+      "source_row": 710
+    },
+    {
+      "code": "7273",
+      "classification": "3.3.1.01",
+      "name": "INSS - Empresa",
+      "source_row": 711
+    },
+    {
+      "code": "19376",
+      "classification": "3.3.1.01.001",
+      "name": "INSS - EMPRESA",
+      "source_row": 712
+    },
+    {
+      "code": "19397",
+      "classification": "3.3.1.01.001.001",
+      "name": "INSS EMPRESA",
+      "source_row": 713
+    },
+    {
+      "code": "7280",
+      "classification": "3.3.1.02",
+      "name": "INSS TERCEIROS",
+      "source_row": 714
+    },
+    {
+      "code": "19432",
+      "classification": "3.3.1.02.001",
+      "name": "INSS TERCEIROS",
+      "source_row": 715
+    },
+    {
+      "code": "19453",
+      "classification": "3.3.1.02.001.001",
+      "name": "INSS TERCEIROS",
+      "source_row": 716
+    },
+    {
+      "code": "7287",
+      "classification": "3.3.1.03",
+      "name": "INSS - SAT",
+      "source_row": 717
+    },
+    {
+      "code": "19474",
+      "classification": "3.3.1.03.001",
+      "name": "INSS - SAT",
+      "source_row": 718
+    },
+    {
+      "code": "19495",
+      "classification": "3.3.1.03.001.001",
+      "name": "INSS - SAT",
+      "source_row": 719
+    },
+    {
+      "code": "7294",
+      "classification": "3.3.2",
+      "name": "COFINS",
+      "source_row": 720
+    },
+    {
+      "code": "7301",
+      "classification": "3.3.2.01",
+      "name": "COFINS",
+      "source_row": 721
+    },
+    {
+      "code": "19516",
+      "classification": "3.3.2.01.001",
+      "name": "COFINS",
+      "source_row": 722
+    },
+    {
+      "code": "19537",
+      "classification": "3.3.2.01.001.001",
+      "name": "COFINS",
+      "source_row": 723
+    },
+    {
+      "code": "24661",
+      "classification": "3.4",
+      "name": "RECEITAS EXTRAORDINARIAS",
+      "source_row": 724
+    },
+    {
+      "code": "24668",
+      "classification": "3.4.1",
+      "name": "Vendas de bens patrimoniais",
+      "source_row": 725
+    },
+    {
+      "code": "7308",
+      "classification": "4",
+      "name": "DESPESAS",
+      "source_row": 726
+    },
+    {
+      "code": "7315",
+      "classification": "4.1",
+      "name": "DESPESAS OPERACIONAIS",
+      "source_row": 727
+    },
+    {
+      "code": "7336",
+      "classification": "4.1.1",
+      "name": "DESPESAS COM PESSOAL",
+      "source_row": 728
+    },
+    {
+      "code": "7343",
+      "classification": "4.1.1.01",
+      "name": "DESPESAS COM PESSOAL",
+      "source_row": 729
+    },
+    {
+      "code": "7371",
+      "classification": "4.1.1.01.001",
+      "name": "DESPESAS COM PESSOAL",
+      "source_row": 730
+    },
+    {
+      "code": "4121",
+      "classification": "4.1.1.01.001.016",
+      "name": "Rescisão Trabalhista",
+      "source_row": 731
+    },
+    {
+      "code": "7378",
+      "classification": "4.1.1.01.001.001",
+      "name": "Salários",
+      "source_row": 732
+    },
+    {
+      "code": "7427",
+      "classification": "4.1.1.01.001.002",
+      "name": "Férias",
+      "source_row": 733
+    },
+    {
+      "code": "7476",
+      "classification": "4.1.1.01.001.003",
+      "name": "13º Salários",
+      "source_row": 734
+    },
+    {
+      "code": "7525",
+      "classification": "4.1.1.01.001.004",
+      "name": "Indenizações Trabalhistas",
+      "source_row": 735
+    },
+    {
+      "code": "7588",
+      "classification": "4.1.1.01.001.005",
+      "name": "Gratificações Diversas",
+      "source_row": 736
+    },
+    {
+      "code": "7637",
+      "classification": "4.1.1.01.001.006",
+      "name": "Horas Extras",
+      "source_row": 737
+    },
+    {
+      "code": "7686",
+      "classification": "4.1.1.01.001.007",
+      "name": "Adicional Por Tempo de Serviço (Quinquênio)",
+      "source_row": 738
+    },
+    {
+      "code": "7735",
+      "classification": "4.1.1.01.001.008",
+      "name": "Produtividade",
+      "source_row": 739
+    },
+    {
+      "code": "7784",
+      "classification": "4.1.1.01.001.009",
+      "name": "Adicional Noturno",
+      "source_row": 740
+    },
+    {
+      "code": "7833",
+      "classification": "4.1.1.01.001.010",
+      "name": "Adicional de Insalubridade",
+      "source_row": 741
+    },
+    {
+      "code": "7882",
+      "classification": "4.1.1.01.001.011",
+      "name": "Adicional de Periculosidade",
+      "source_row": 742
+    },
+    {
+      "code": "7931",
+      "classification": "4.1.1.01.001.012",
+      "name": "Repouso Semanal Remunerado",
+      "source_row": 743
+    },
+    {
+      "code": "7980",
+      "classification": "4.1.1.01.001.013",
+      "name": "Comissões e Bonificações",
+      "source_row": 744
+    },
+    {
+      "code": "8029",
+      "classification": "4.1.1.01.001.014",
+      "name": "Outros Proventos Trabalhistas",
+      "source_row": 745
+    },
+    {
+      "code": "17689",
+      "classification": "4.1.1.01.001.015",
+      "name": "Aviso Prévio",
+      "source_row": 746
+    },
+    {
+      "code": "23275",
+      "classification": "4.1.1.01.001.017",
+      "name": "Despesas Pessoais - Saúde/ Educação/ Assist. Soc.",
+      "source_row": 747
+    },
+    {
+      "code": "23282",
+      "classification": "4.1.1.01.001.018",
+      "name": "Encardos Sociais - Saúde/ Educação/ Assist. Social",
+      "source_row": 748
+    },
+    {
+      "code": "23289",
+      "classification": "4.1.1.01.001.019",
+      "name": "Outras Despesas - Saúde/ Educação/ Assist. Social",
+      "source_row": 749
+    },
+    {
+      "code": "23296",
+      "classification": "4.1.1.01.001.020",
+      "name": "Serviços de Terc - Saúde/ Educação/ Assist. Social",
+      "source_row": 750
+    },
+    {
+      "code": "23303",
+      "classification": "4.1.1.01.001.021",
+      "name": "Custos Gerais - Saúde/ Educação/ Assist. Social",
+      "source_row": 751
+    },
+    {
+      "code": "23310",
+      "classification": "4.1.1.01.001.023",
+      "name": "Despesas Serviços Voluntários",
+      "source_row": 752
+    },
+    {
+      "code": "23373",
+      "classification": "4.1.1.01.001.022",
+      "name": "Serviços Prestados Pessoa Física - RPA",
+      "source_row": 753
+    },
+    {
+      "code": "23387",
+      "classification": "4.1.1.01.001.027",
+      "name": "(-) Custeio de Assistencia Social",
+      "source_row": 754
+    },
+    {
+      "code": "23422",
+      "classification": "4.1.1.01.001.025",
+      "name": "(-) Custeio da Educação",
+      "source_row": 755
+    },
+    {
+      "code": "23429",
+      "classification": "4.1.1.01.001.026",
+      "name": "(-) Custeio da Saúde",
+      "source_row": 756
+    },
+    {
+      "code": "23478",
+      "classification": "4.1.1.01.001.024",
+      "name": "(-) Serviços de Voluntários",
+      "source_row": 757
+    },
+    {
+      "code": "23506",
+      "classification": "4.1.1.01.001.028",
+      "name": "Despesas com Contribuições Sindicais",
+      "source_row": 758
+    },
+    {
+      "code": "8064",
+      "classification": "4.1.2",
+      "name": "ENCARGOS SOCIAIS",
+      "source_row": 759
+    },
+    {
+      "code": "8071",
+      "classification": "4.1.2.01",
+      "name": "ENCARGOS SOCIAIS",
+      "source_row": 760
+    },
+    {
+      "code": "8078",
+      "classification": "4.1.2.01.001",
+      "name": "ENCARGOS SOCIAIS",
+      "source_row": 761
+    },
+    {
+      "code": "8085",
+      "classification": "4.1.2.01.001.001",
+      "name": "FGTS",
+      "source_row": 762
+    },
+    {
+      "code": "8134",
+      "classification": "4.1.2.01.001.002",
+      "name": "FGTS - Rescisão",
+      "source_row": 763
+    },
+    {
+      "code": "8379",
+      "classification": "4.1.2.01.001.003",
+      "name": "PCMSO/PRA",
+      "source_row": 764
+    },
+    {
+      "code": "20979",
+      "classification": "4.1.2.01.001.004",
+      "name": "INSS - Patronal e Terceiros",
+      "source_row": 765
+    },
+    {
+      "code": "22519",
+      "classification": "4.1.2.01.001.006",
+      "name": "INSS - Reclamatório Trabalhista CNPJ",
+      "source_row": 766
+    },
+    {
+      "code": "22575",
+      "classification": "4.1.2.01.001.007",
+      "name": "IRRF S/Causas Trabalhistas",
+      "source_row": 767
+    },
+    {
+      "code": "22582",
+      "classification": "4.1.2.01.001.008",
+      "name": "PIS - Folha de Pagamento",
+      "source_row": 768
+    },
+    {
+      "code": "22589",
+      "classification": "4.1.2.01.001.009",
+      "name": "(-) Custeio da Assistência Social",
+      "source_row": 769
+    },
+    {
+      "code": "22596",
+      "classification": "4.1.2.01.001.010",
+      "name": "(-) Custeio da Educação",
+      "source_row": 770
+    },
+    {
+      "code": "22603",
+      "classification": "4.1.2.01.001.011",
+      "name": "(-) Custeio da Saúde",
+      "source_row": 771
+    },
+    {
+      "code": "22610",
+      "classification": "4.1.2.01.001.005",
+      "name": "(-) INSS - Patronal e Terceiros",
+      "source_row": 772
+    },
+    {
+      "code": "8463",
+      "classification": "4.1.3",
+      "name": "BENEFÍCIOS A FUNCIONÁRIOS",
+      "source_row": 773
+    },
+    {
+      "code": "8470",
+      "classification": "4.1.3.01",
+      "name": "BENEFÍCIOS A FUNCIONÁRIOS",
+      "source_row": 774
+    },
+    {
+      "code": "8477",
+      "classification": "4.1.3.01.001",
+      "name": "BENEFÍCIOS A FUNCIONÁRIOS",
+      "source_row": 775
+    },
+    {
+      "code": "8484",
+      "classification": "4.1.3.01.001.001",
+      "name": "Vale Transporte",
+      "source_row": 776
+    },
+    {
+      "code": "8582",
+      "classification": "4.1.3.01.001.002",
+      "name": "Plano de Saúde",
+      "source_row": 777
+    },
+    {
+      "code": "8589",
+      "classification": "4.1.3.01.001.003",
+      "name": "(-) Custeio da Assistência Social",
+      "source_row": 778
+    },
+    {
+      "code": "8596",
+      "classification": "4.1.3.01.001.004",
+      "name": "(-) Custeio da Educação",
+      "source_row": 779
+    },
+    {
+      "code": "8603",
+      "classification": "4.1.3.01.001.006",
+      "name": "(-) Custeio da Saúde",
+      "source_row": 780
+    },
+    {
+      "code": "8610",
+      "classification": "4.1.3.01.001.005",
+      "name": "Plano Odontológico",
+      "source_row": 781
+    },
+    {
+      "code": "8617",
+      "classification": "4.1.3.01.001.007",
+      "name": "Seguro de Vida",
+      "source_row": 782
+    },
+    {
+      "code": "8848",
+      "classification": "4.1.4",
+      "name": "DESPESA COM OCUPAÇÃO",
+      "source_row": 783
+    },
+    {
+      "code": "8855",
+      "classification": "4.1.4.01",
+      "name": "DESPESA COM OCUPAÇÃO",
+      "source_row": 784
+    },
+    {
+      "code": "8862",
+      "classification": "4.1.4.01.001",
+      "name": "DESPESA COM OCUPAÇÃO",
+      "source_row": 785
+    },
+    {
+      "code": "9065",
+      "classification": "4.1.4.01.001.001",
+      "name": "Energia Elétrica",
+      "source_row": 786
+    },
+    {
+      "code": "9114",
+      "classification": "4.1.4.01.001.002",
+      "name": "Água e Esgoto",
+      "source_row": 787
+    },
+    {
+      "code": "9163",
+      "classification": "4.1.4.01.001.003",
+      "name": "Gás",
+      "source_row": 788
+    },
+    {
+      "code": "9212",
+      "classification": "4.1.4.01.001.004",
+      "name": "Internet e TV por Assinatura",
+      "source_row": 789
+    },
+    {
+      "code": "9261",
+      "classification": "4.1.4.01.001.005",
+      "name": "Telefone",
+      "source_row": 790
+    },
+    {
+      "code": "17388",
+      "classification": "4.1.4.01.001.006",
+      "name": "Internet - Hospedagem/ Manutenção",
+      "source_row": 791
+    },
+    {
+      "code": "19628",
+      "classification": "4.1.4.01.001.007",
+      "name": "Locações Diversas",
+      "source_row": 792
+    },
+    {
+      "code": "19635",
+      "classification": "4.1.4.01.001.008",
+      "name": "(-) Custeio da Assistência Social",
+      "source_row": 793
+    },
+    {
+      "code": "19642",
+      "classification": "4.1.4.01.001.009",
+      "name": "(-) Custeio da Educação",
+      "source_row": 794
+    },
+    {
+      "code": "19649",
+      "classification": "4.1.4.01.001.010",
+      "name": "(-) Custeio da Saúde",
+      "source_row": 795
+    },
+    {
+      "code": "19656",
+      "classification": "4.1.4.01.001.011",
+      "name": "Apólice de Seguro",
+      "source_row": 796
+    },
+    {
+      "code": "9296",
+      "classification": "4.1.5",
+      "name": "DESPESAS COM MATERIAIS",
+      "source_row": 797
+    },
+    {
+      "code": "9303",
+      "classification": "4.1.5.01",
+      "name": "DESPESAS COM MATERIAIS",
+      "source_row": 798
+    },
+    {
+      "code": "9310",
+      "classification": "4.1.5.01.001",
+      "name": "DESPESAS COM MATERIAIS - APN",
+      "source_row": 799
+    },
+    {
+      "code": "9317",
+      "classification": "4.1.5.01.001.018",
+      "name": "Almoxarifado",
+      "source_row": 800
+    },
+    {
+      "code": "9366",
+      "classification": "4.1.5.01.001.001",
+      "name": "Material de Higiêne e Limpeza",
+      "source_row": 801
+    },
+    {
+      "code": "9415",
+      "classification": "4.1.5.01.001.002",
+      "name": "Alimentos",
+      "source_row": 802
+    },
+    {
+      "code": "9513",
+      "classification": "4.1.5.01.001.003",
+      "name": "Material médico e hospitalar",
+      "source_row": 803
+    },
+    {
+      "code": "9562",
+      "classification": "4.1.5.01.001.004",
+      "name": "Material de Informática",
+      "source_row": 804
+    },
+    {
+      "code": "9611",
+      "classification": "4.1.5.01.001.005",
+      "name": "Material de Construção",
+      "source_row": 805
+    },
+    {
+      "code": "9800",
+      "classification": "4.1.5.01.001.006",
+      "name": "Combustíveis e Lubrificantes",
+      "source_row": 806
+    },
+    {
+      "code": "9842",
+      "classification": "4.1.5.01.001.007",
+      "name": "Uniformes",
+      "source_row": 807
+    },
+    {
+      "code": "14336",
+      "classification": "4.1.5.01.001.008",
+      "name": "Material para Órteses e Próteses",
+      "source_row": 808
+    },
+    {
+      "code": "14406",
+      "classification": "4.1.5.01.001.009",
+      "name": "Material Elétrico e Hidráulico",
+      "source_row": 809
+    },
+    {
+      "code": "14441",
+      "classification": "4.1.5.01.001.010",
+      "name": "Material de Expediente",
+      "source_row": 810
+    },
+    {
+      "code": "14476",
+      "classification": "4.1.5.01.001.011",
+      "name": "Material de Conservação de Veículos",
+      "source_row": 811
+    },
+    {
+      "code": "15715",
+      "classification": "4.1.5.01.001.012",
+      "name": "Material de Ornamentação e Decoração",
+      "source_row": 812
+    },
+    {
+      "code": "15750",
+      "classification": "4.1.5.01.001.013",
+      "name": "Material de Conservação e Reparos de Imóveis",
+      "source_row": 813
+    },
+    {
+      "code": "15785",
+      "classification": "4.1.5.01.001.014",
+      "name": "Material de Conservação de Máquinas e Equipamentos",
+      "source_row": 814
+    },
+    {
+      "code": "15820",
+      "classification": "4.1.5.01.001.015",
+      "name": "Material de Conservação Equip. de Informática",
+      "source_row": 815
+    },
+    {
+      "code": "15890",
+      "classification": "4.1.5.01.001.016",
+      "name": "Água Potável",
+      "source_row": 816
+    },
+    {
+      "code": "15897",
+      "classification": "4.1.5.01.001.017",
+      "name": "Máquinas e Equipamentos",
+      "source_row": 817
+    },
+    {
+      "code": "15904",
+      "classification": "4.1.5.01.001.019",
+      "name": "Móveis e Utensílios",
+      "source_row": 818
+    },
+    {
+      "code": "15960",
+      "classification": "4.1.5.01.001.020",
+      "name": "Material de Acupuntura",
+      "source_row": 819
+    },
+    {
+      "code": "15967",
+      "classification": "4.1.5.01.001.021",
+      "name": "Material Clínico/Didáticos",
+      "source_row": 820
+    },
+    {
+      "code": "15974",
+      "classification": "4.1.5.01.001.022",
+      "name": "Material de Plantio - Mudas de Plantas e Insumos",
+      "source_row": 821
+    },
+    {
+      "code": "15981",
+      "classification": "4.1.5.01.001.023",
+      "name": "Alimentos - Merenda Escolar",
+      "source_row": 822
+    },
+    {
+      "code": "15911",
+      "classification": "4.1.5.01.002",
+      "name": "DESPESAS COM MATERIAIS - ESP",
+      "source_row": 823
+    },
+    {
+      "code": "15918",
+      "classification": "4.1.5.01.002.001",
+      "name": "Material de Conservação e Reparos de Imóveis",
+      "source_row": 824
+    },
+    {
+      "code": "15925",
+      "classification": "4.1.5.01.002.002",
+      "name": "Material de Conservação de Máquinas e Equipamentos",
+      "source_row": 825
+    },
+    {
+      "code": "15932",
+      "classification": "4.1.5.01.002.003",
+      "name": "Material de Conservação Equip. de Informática",
+      "source_row": 826
+    },
+    {
+      "code": "15939",
+      "classification": "4.1.5.01.002.004",
+      "name": "Máquinas e Equipamentos",
+      "source_row": 827
+    },
+    {
+      "code": "15946",
+      "classification": "4.1.5.01.002.005",
+      "name": "Móveis e Utensílios",
+      "source_row": 828
+    },
+    {
+      "code": "15953",
+      "classification": "4.1.5.01.002.006",
+      "name": "Material de Informática",
+      "source_row": 829
+    },
+    {
+      "code": "9926",
+      "classification": "4.1.6",
+      "name": "DESPESAS ADMINISTRATIVAS",
+      "source_row": 830
+    },
+    {
+      "code": "9933",
+      "classification": "4.1.6.01",
+      "name": "DESPESAS ADMINISTRATIVAS",
+      "source_row": 831
+    },
+    {
+      "code": "9940",
+      "classification": "4.1.6.01.001",
+      "name": "DESPESAS ADMINISTRATIVAS - APN",
+      "source_row": 832
+    },
+    {
+      "code": "9947",
+      "classification": "4.1.6.01.001.001",
+      "name": "Prestação de Serviços - PJ",
+      "source_row": 833
+    },
+    {
+      "code": "9996",
+      "classification": "4.1.6.01.001.002",
+      "name": "Prestação de Serviços - PF",
+      "source_row": 834
+    },
+    {
+      "code": "10045",
+      "classification": "4.1.6.01.001.003",
+      "name": "Prestação de Serviços de Desinsetização em Geral",
+      "source_row": 835
+    },
+    {
+      "code": "10094",
+      "classification": "4.1.6.01.001.004",
+      "name": "Manutenção e Conservação de Bens Móveis - PJ",
+      "source_row": 836
+    },
+    {
+      "code": "10192",
+      "classification": "4.1.6.01.001.006",
+      "name": "Manutenção e Conservação Equipamen. de Informatica",
+      "source_row": 837
+    },
+    {
+      "code": "10241",
+      "classification": "4.1.6.01.001.007",
+      "name": "Serviços de Manutenção em Veículos - PJ",
+      "source_row": 838
+    },
+    {
+      "code": "10290",
+      "classification": "4.1.6.01.001.008",
+      "name": "Manutenção e Conservação Equipamento Elétrico",
+      "source_row": 839
+    },
+    {
+      "code": "10332",
+      "classification": "4.1.6.01.001.027",
+      "name": "Correios e Telegrafos",
+      "source_row": 840
+    },
+    {
+      "code": "10381",
+      "classification": "4.1.6.01.001.028",
+      "name": "Reprografia",
+      "source_row": 841
+    },
+    {
+      "code": "10479",
+      "classification": "4.1.6.01.001.030",
+      "name": "Viagens, Diárias, Estadias e Representações",
+      "source_row": 842
+    },
+    {
+      "code": "10528",
+      "classification": "4.1.6.01.001.031",
+      "name": "Anúncios e Editais",
+      "source_row": 843
+    },
+    {
+      "code": "10577",
+      "classification": "4.1.6.01.001.032",
+      "name": "Publicidade e Propaganda",
+      "source_row": 844
+    },
+    {
+      "code": "10626",
+      "classification": "4.1.6.01.001.033",
+      "name": "Fretes e Carretos",
+      "source_row": 845
+    },
+    {
+      "code": "10675",
+      "classification": "4.1.6.01.001.034",
+      "name": "Lanches e Refeições",
+      "source_row": 846
+    },
+    {
+      "code": "10724",
+      "classification": "4.1.6.01.001.029",
+      "name": "Condução e Transporte",
+      "source_row": 847
+    },
+    {
+      "code": "10822",
+      "classification": "4.1.6.01.001.026",
+      "name": "Livros e Impressões",
+      "source_row": 848
+    },
+    {
+      "code": "10871",
+      "classification": "4.1.6.01.001.025",
+      "name": "Comemorações e Homenagens",
+      "source_row": 849
+    },
+    {
+      "code": "10920",
+      "classification": "4.1.6.01.001.024",
+      "name": "Ornamentação",
+      "source_row": 850
+    },
+    {
+      "code": "10969",
+      "classification": "4.1.6.01.001.023",
+      "name": "Cursos e Palestras",
+      "source_row": 851
+    },
+    {
+      "code": "14770",
+      "classification": "4.1.6.01.001.022",
+      "name": "Cartório",
+      "source_row": 852
+    },
+    {
+      "code": "14840",
+      "classification": "4.1.6.01.001.021",
+      "name": "Prestação de Serviços - Recursos Humanos - PJ",
+      "source_row": 853
+    },
+    {
+      "code": "14980",
+      "classification": "4.1.6.01.001.035",
+      "name": "Despesas Diversas",
+      "source_row": 854
+    },
+    {
+      "code": "16387",
+      "classification": "4.1.6.01.001.009",
+      "name": "Serviços de Lavanderia e Tinturaria - PJ",
+      "source_row": 855
+    },
+    {
+      "code": "16450",
+      "classification": "4.1.6.01.001.010",
+      "name": "Prestação de Serviço - Transporte de Resíduos - PJ",
+      "source_row": 856
+    },
+    {
+      "code": "16576",
+      "classification": "4.1.6.01.001.012",
+      "name": "Prestação de Serviços Contábeis - PJ",
+      "source_row": 857
+    },
+    {
+      "code": "16639",
+      "classification": "4.1.6.01.001.013",
+      "name": "Aquisição, Instal. Manut. Software/Sistema Info-PJ",
+      "source_row": 858
+    },
+    {
+      "code": "16702",
+      "classification": "4.1.6.01.001.014",
+      "name": "Prestação de Serviços Jurídicos (Advocatícios)- PJ",
+      "source_row": 859
+    },
+    {
+      "code": "16765",
+      "classification": "4.1.6.01.001.015",
+      "name": "Prestação de Serviços - Consultas Cadastrais - PJ",
+      "source_row": 860
+    },
+    {
+      "code": "16905",
+      "classification": "4.1.6.01.001.016",
+      "name": "Prestação de Serviços de Telemarketing - PJ",
+      "source_row": 861
+    },
+    {
+      "code": "16961",
+      "classification": "4.1.6.01.001.017",
+      "name": "Prestação de Serviços de Administrativo - PJ",
+      "source_row": 862
+    },
+    {
+      "code": "17024",
+      "classification": "4.1.6.01.001.018",
+      "name": "Manutenção e Conservação de Máquinas e Equip. - PJ",
+      "source_row": 863
+    },
+    {
+      "code": "17255",
+      "classification": "4.1.6.01.001.019",
+      "name": "Prestação de Serviço - Exame Qualidade da Água -PJ",
+      "source_row": 864
+    },
+    {
+      "code": "17479",
+      "classification": "4.1.6.01.001.020",
+      "name": "Prestação de Serviços de Vigilância - PJ",
+      "source_row": 865
+    },
+    {
+      "code": "17542",
+      "classification": "4.1.6.01.001.011",
+      "name": "Prestação de Serviços de Limpeza - PJ",
+      "source_row": 866
+    },
+    {
+      "code": "17605",
+      "classification": "4.1.6.01.001.005",
+      "name": "Prestação de Serviços Graficos - PJ",
+      "source_row": 867
+    },
+    {
+      "code": "17612",
+      "classification": "4.1.6.01.001.036",
+      "name": "Estacionamento",
+      "source_row": 868
+    },
+    {
+      "code": "17682",
+      "classification": "4.1.6.01.001.037",
+      "name": "Anuidade",
+      "source_row": 869
+    },
+    {
+      "code": "17696",
+      "classification": "4.1.6.01.001.038",
+      "name": "(-) Custeio da Assistência Social",
+      "source_row": 870
+    },
+    {
+      "code": "17703",
+      "classification": "4.1.6.01.001.039",
+      "name": "(-) Custeio da Educação",
+      "source_row": 871
+    },
+    {
+      "code": "17710",
+      "classification": "4.1.6.01.001.040",
+      "name": "(-) Custeio da Saúde",
+      "source_row": 872
+    },
+    {
+      "code": "24801",
+      "classification": "4.1.6.01.001.041",
+      "name": "Glosa - Plano de Saúde",
+      "source_row": 873
+    },
+    {
+      "code": "17619",
+      "classification": "4.1.6.01.002",
+      "name": "DESPESAS ADMINISTRATIVAS - ESP",
+      "source_row": 874
+    },
+    {
+      "code": "17626",
+      "classification": "4.1.6.01.002.001",
+      "name": "Prestação de Serviços - PJ",
+      "source_row": 875
+    },
+    {
+      "code": "17633",
+      "classification": "4.1.6.01.002.002",
+      "name": "Prestação de Serviços Graficos - PJ",
+      "source_row": 876
+    },
+    {
+      "code": "17647",
+      "classification": "4.1.6.01.002.003",
+      "name": "Aquisição, Instal. Manut. Software/Sistema Info-PJ",
+      "source_row": 877
+    },
+    {
+      "code": "17654",
+      "classification": "4.1.6.01.002.004",
+      "name": "Prestação de Serviços Administrativo ESP - PJ",
+      "source_row": 878
+    },
+    {
+      "code": "17661",
+      "classification": "4.1.6.01.002.005",
+      "name": "Prestação de Serv. - Publicidade e Propaganda - PJ",
+      "source_row": 879
+    },
+    {
+      "code": "17668",
+      "classification": "4.1.6.01.002.006",
+      "name": "Prestação de Serviços - Fretes e Carretos - PJ",
+      "source_row": 880
+    },
+    {
+      "code": "17675",
+      "classification": "4.1.6.01.002.007",
+      "name": "Taxas Inep",
+      "source_row": 881
+    },
+    {
+      "code": "17717",
+      "classification": "4.1.6.01.002.008",
+      "name": "(-) Custeio da Assistência Social",
+      "source_row": 882
+    },
+    {
+      "code": "17724",
+      "classification": "4.1.6.01.002.009",
+      "name": "(-) Custeio da Educação",
+      "source_row": 883
+    },
+    {
+      "code": "17731",
+      "classification": "4.1.6.01.002.010",
+      "name": "(-) Custeio da Saúde",
+      "source_row": 884
+    },
+    {
+      "code": "11585",
+      "classification": "4.2",
+      "name": "Despesas Financeiras Diversas",
+      "source_row": 885
+    },
+    {
+      "code": "11634",
+      "classification": "4.2.1",
+      "name": "DESPESAS FINANCEIRAS",
+      "source_row": 886
+    },
+    {
+      "code": "11641",
+      "classification": "4.2.1.01",
+      "name": "DESPESAS FINANCEIRAS",
+      "source_row": 887
+    },
+    {
+      "code": "11648",
+      "classification": "4.2.1.01.001",
+      "name": "DESPESAS FINANCEIRAS",
+      "source_row": 888
+    },
+    {
+      "code": "11655",
+      "classification": "4.2.1.01.001.001",
+      "name": "Despesas Bancárias",
+      "source_row": 889
+    },
+    {
+      "code": "11690",
+      "classification": "4.2.1.01.001.002",
+      "name": "Juros e Correções",
+      "source_row": 890
+    },
+    {
+      "code": "11753",
+      "classification": "4.2.1.01.001.003",
+      "name": "Juros Passivos",
+      "source_row": 891
+    },
+    {
+      "code": "15106",
+      "classification": "4.2.1.01.001.005",
+      "name": "Multas Detran",
+      "source_row": 892
+    },
+    {
+      "code": "15176",
+      "classification": "4.2.1.01.001.006",
+      "name": "Multas Diversas",
+      "source_row": 893
+    },
+    {
+      "code": "15232",
+      "classification": "4.2.1.01.001.007",
+      "name": "Taxas Diversas",
+      "source_row": 894
+    },
+    {
+      "code": "15288",
+      "classification": "4.2.1.01.001.004",
+      "name": "Devolução de Convênios",
+      "source_row": 895
+    },
+    {
+      "code": "15344",
+      "classification": "4.2.1.01.001.010",
+      "name": "Licenciamento de Veículos - Detran",
+      "source_row": 896
+    },
+    {
+      "code": "15400",
+      "classification": "4.2.1.01.001.008",
+      "name": "Variação Monetária Passiva",
+      "source_row": 897
+    },
+    {
+      "code": "19019",
+      "classification": "4.2.1.01.001.009",
+      "name": "IOF",
+      "source_row": 898
+    },
+    {
+      "code": "19026",
+      "classification": "4.2.1.01.001.011",
+      "name": "Devolução de Mensalidades (ESP)",
+      "source_row": 899
+    },
+    {
+      "code": "19033",
+      "classification": "4.2.1.01.001.012",
+      "name": "Taxas Adm Cartão Débito e Crédito",
+      "source_row": 900
+    },
+    {
+      "code": "11837",
+      "classification": "4.2.2",
+      "name": "DESPESAS TRIBUTÁRIAS",
+      "source_row": 901
+    },
+    {
+      "code": "11844",
+      "classification": "4.2.2.01",
+      "name": "DESPESAS TRIBUTÁRIAS",
+      "source_row": 902
+    },
+    {
+      "code": "11851",
+      "classification": "4.2.2.01.001",
+      "name": "DESPESAS TRIBUTÁRIAS",
+      "source_row": 903
+    },
+    {
+      "code": "11858",
+      "classification": "4.2.2.01.001.001",
+      "name": "IRRF",
+      "source_row": 904
+    },
+    {
+      "code": "11907",
+      "classification": "4.2.2.01.001.002",
+      "name": "IPTU",
+      "source_row": 905
+    },
+    {
+      "code": "11956",
+      "classification": "4.2.2.01.001.003",
+      "name": "ISSQN",
+      "source_row": 906
+    },
+    {
+      "code": "12005",
+      "classification": "4.2.2.01.001.004",
+      "name": "IOF",
+      "source_row": 907
+    },
+    {
+      "code": "12054",
+      "classification": "4.2.2.01.001.005",
+      "name": "Taxas Federais",
+      "source_row": 908
+    },
+    {
+      "code": "12103",
+      "classification": "4.2.2.01.001.006",
+      "name": "Taxas Estaduais",
+      "source_row": 909
+    },
+    {
+      "code": "12152",
+      "classification": "4.2.2.01.001.007",
+      "name": "Taxas Municipais",
+      "source_row": 910
+    },
+    {
+      "code": "12201",
+      "classification": "4.2.2.01.001.008",
+      "name": "Demais Tributos",
+      "source_row": 911
+    },
+    {
+      "code": "15680",
+      "classification": "4.2.2.01.001.009",
+      "name": "Imposto S/Aplicação Financeira",
+      "source_row": 912
+    },
+    {
+      "code": "15687",
+      "classification": "4.2.2.01.002",
+      "name": "DESPESAS TRIBUTÁRIAS - ESP",
+      "source_row": 913
+    },
+    {
+      "code": "15694",
+      "classification": "4.2.2.01.002.001",
+      "name": "IRRF",
+      "source_row": 914
+    },
+    {
+      "code": "15701",
+      "classification": "4.2.2.01.002.002",
+      "name": "ISSQN",
+      "source_row": 915
+    },
+    {
+      "code": "15708",
+      "classification": "4.2.2.01.002.003",
+      "name": "IOF",
+      "source_row": 916
+    },
+    {
+      "code": "15722",
+      "classification": "4.2.2.01.002.004",
+      "name": "IPI",
+      "source_row": 917
+    },
+    {
+      "code": "15729",
+      "classification": "4.2.2.01.002.005",
+      "name": "Imposto S/Aplicação Financeira",
+      "source_row": 918
+    },
+    {
+      "code": "12236",
+      "classification": "4.2.3",
+      "name": "MULTAS E INFRAÇÕES",
+      "source_row": 919
+    },
+    {
+      "code": "12243",
+      "classification": "4.2.3.01",
+      "name": "MULTAS E INFRAÇÕES",
+      "source_row": 920
+    },
+    {
+      "code": "12250",
+      "classification": "4.2.3.01.001",
+      "name": "MULTAS E INFRAÇÕES",
+      "source_row": 921
+    },
+    {
+      "code": "12257",
+      "classification": "4.2.3.01.001.001",
+      "name": "Multas Trabalhistas",
+      "source_row": 922
+    },
+    {
+      "code": "12306",
+      "classification": "4.2.3.01.001.002",
+      "name": "Multas Tributárias",
+      "source_row": 923
+    },
+    {
+      "code": "12404",
+      "classification": "4.2.3.01.001.003",
+      "name": "Multas Diversas",
+      "source_row": 924
+    },
+    {
+      "code": "21357",
+      "classification": "4.3",
+      "name": "OUTROS CUSTOS",
+      "source_row": 925
+    },
+    {
+      "code": "21364",
+      "classification": "4.3.1",
+      "name": "Benefícios Concedidos",
+      "source_row": 926
+    },
+    {
+      "code": "21371",
+      "classification": "4.3.1.01",
+      "name": "Benefícios Concedidos",
+      "source_row": 927
+    },
+    {
+      "code": "21378",
+      "classification": "4.3.1.01.001",
+      "name": "Custo C/Benefícios Concedidos - Educação",
+      "source_row": 928
+    },
+    {
+      "code": "21385",
+      "classification": "4.3.1.01.001.001",
+      "name": "Pessoal",
+      "source_row": 929
+    },
+    {
+      "code": "21392",
+      "classification": "4.3.1.01.001.002",
+      "name": "Encargos Sociais",
+      "source_row": 930
+    },
+    {
+      "code": "21399",
+      "classification": "4.3.1.01.001.003",
+      "name": "Outras Obrigações",
+      "source_row": 931
+    },
+    {
+      "code": "23114",
+      "classification": "4.3.1.01.001.004",
+      "name": "Serviços de Terceiros",
+      "source_row": 932
+    },
+    {
+      "code": "23121",
+      "classification": "4.3.1.01.001.005",
+      "name": "Custos Gerais",
+      "source_row": 933
+    },
+    {
+      "code": "23317",
+      "classification": "4.3.1.01.002",
+      "name": "Custo C/Benefícios Concedidos - Saúde",
+      "source_row": 934
+    },
+    {
+      "code": "23359",
+      "classification": "4.3.1.01.002.001",
+      "name": "Pessoal",
+      "source_row": 935
+    },
+    {
+      "code": "23366",
+      "classification": "4.3.1.01.002.002",
+      "name": "Encargos Sociais",
+      "source_row": 936
+    },
+    {
+      "code": "23380",
+      "classification": "4.3.1.01.002.003",
+      "name": "Outras Obrigações",
+      "source_row": 937
+    },
+    {
+      "code": "23394",
+      "classification": "4.3.1.01.002.004",
+      "name": "Serviços de Terceiros",
+      "source_row": 938
+    },
+    {
+      "code": "23415",
+      "classification": "4.3.1.01.002.005",
+      "name": "Custos Gerais",
+      "source_row": 939
+    },
+    {
+      "code": "23436",
+      "classification": "4.3.1.01.003",
+      "name": "Custo C/Benefícios Concedidos - Assistência Social",
+      "source_row": 940
+    },
+    {
+      "code": "23443",
+      "classification": "4.3.1.01.003.001",
+      "name": "Pessoal",
+      "source_row": 941
+    },
+    {
+      "code": "23450",
+      "classification": "4.3.1.01.003.002",
+      "name": "Encargos Sociais",
+      "source_row": 942
+    },
+    {
+      "code": "23457",
+      "classification": "4.3.1.01.003.003",
+      "name": "Outras Obrigações",
+      "source_row": 943
+    },
+    {
+      "code": "23464",
+      "classification": "4.3.1.01.003.004",
+      "name": "Serviços de Terceiros",
+      "source_row": 944
+    },
+    {
+      "code": "23471",
+      "classification": "4.3.1.01.003.005",
+      "name": "Custos Gerais",
+      "source_row": 945
+    },
+    {
+      "code": "23118",
+      "classification": "4.4",
+      "name": "Desp.C/Provisões P/Contingências Judiciais e Admin",
+      "source_row": 946
+    },
+    {
+      "code": "21211",
+      "classification": "4.4.1",
+      "name": "Despesas C/Provisões P/Contingências Judiciais",
+      "source_row": 947
+    },
+    {
+      "code": "21218",
+      "classification": "4.4.1.01",
+      "name": "Prov.p/Contingências Jud.-Proces. Trab. e Cíveis",
+      "source_row": 948
+    },
+    {
+      "code": "21225",
+      "classification": "4.4.1.01.001",
+      "name": "Desp.C/Prov.P/Conting. Jud.Proces.Trabalh.e Cíveis",
+      "source_row": 949
+    },
+    {
+      "code": "21232",
+      "classification": "4.4.1.01.001.001",
+      "name": "Desp.C/Prov.P/Conting. Jud.Proces.Trabalh.e Cíveis",
+      "source_row": 950
+    },
+    {
+      "code": "23174",
+      "classification": "4.5",
+      "name": "DEPRECIAÇÃO",
+      "source_row": 951
+    },
+    {
+      "code": "23181",
+      "classification": "4.5.1",
+      "name": "DEPRECIAÇÃO ACUMULADA",
+      "source_row": 952
+    },
+    {
+      "code": "23188",
+      "classification": "4.5.1.01",
+      "name": "DEPRECIAÇÕES ACUMULADAS",
+      "source_row": 953
+    },
+    {
+      "code": "23195",
+      "classification": "4.5.1.01.001",
+      "name": "DEPRECIAÇÕES ACUMULADAS",
+      "source_row": 954
+    },
+    {
+      "code": "23202",
+      "classification": "4.5.1.01.001.001",
+      "name": "Depreciações Acumuladas",
+      "source_row": 955
+    },
+    {
+      "code": "23324",
+      "classification": "4.6",
+      "name": "Gratuidade",
+      "source_row": 956
+    },
+    {
+      "code": "23331",
+      "classification": "4.6.1",
+      "name": "Gratuidade Educação Especial",
+      "source_row": 957
+    },
+    {
+      "code": "23338",
+      "classification": "4.6.1.01",
+      "name": "Gratuidade Educação Especial",
+      "source_row": 958
+    },
+    {
+      "code": "23345",
+      "classification": "4.6.1.01.001",
+      "name": "Gratuidade Educação Especial",
+      "source_row": 959
+    },
+    {
+      "code": "23352",
+      "classification": "4.6.1.01.001.001",
+      "name": "Gratuidade Educação Especial",
+      "source_row": 960
+    },
+    {
+      "code": "23485",
+      "classification": "4.7",
+      "name": "CUSTOS EXTRAORDINARIOS",
+      "source_row": 961
+    },
+    {
+      "code": "23492",
+      "classification": "4.7.1",
+      "name": "Custos de bens vendidos",
+      "source_row": 962
+    },
+    {
+      "code": "23499",
+      "classification": "4.7.2",
+      "name": "Custos de bens baixados",
+      "source_row": 963
+    },
+    {
+      "code": "21168",
+      "classification": "5",
+      "name": "ENCERRAMENTO DO EXERCÍCIO",
+      "source_row": 964
+    },
+    {
+      "code": "21175",
+      "classification": "5.1",
+      "name": "Apuração de Resultado",
+      "source_row": 965
+    },
+    {
+      "code": "21182",
+      "classification": "5.1.1",
+      "name": "Apuração de Resultado",
+      "source_row": 966
+    },
+    {
+      "code": "21189",
+      "classification": "5.1.1.01",
+      "name": "Apuração do Resultado do Exercício",
+      "source_row": 967
+    },
+    {
+      "code": "21196",
+      "classification": "5.1.1.01.001",
+      "name": "Apuração do Resultado do Exercício",
+      "source_row": 968
+    },
+    {
+      "code": "21203",
+      "classification": "5.1.1.01.001.001",
+      "name": "Superávit/Défict do Exercício",
+      "source_row": 969
+    },
+    {
+      "code": "21210",
+      "classification": "5.1.1.01.001.002",
+      "name": "Déficit do Exercício",
+      "source_row": 970
+    }
+  ],
+  "source": "PLANO DE CONTAS.XLS"
+}
