@@ -40,3 +40,17 @@ Veja `deploy/azure.md`. Preparação WSGI para Gunicorn, armazenamento persisten
 ## Recuperação e GitHub
 
 Os dados são confidenciais: usar somente repositório privado. Não incluir senhas, tokens ou banco operacional no Git. O ambiente anterior está indisponível e o GitHub ainda pode estar inacessível pelo proxy. Cópia local e ZIP não comprovam envio remoto.
+
+## Particulares
+
+Módulo separado de Faturamento e Produção. Consulta janeiro–setembro/2026 do arquivo `Gestao_Particular_APN_2026.xlsx`, com fonte direta e convênios sem CLIN/SUS. A receita gerencial conjunta é R$ 80.051,31; pessoal R$ 112.817,61; saldo após pessoal −R$ 32.766,30. Conferido contra Financeiro e Mensal da planilha. Não são arrecadação recebida nem lucro líquido.
+
+Quatro abas: Financeiro, Pacientes e produtividade, Convênios e glosas, Carregamentos mensais. Seleção única de período mensal, trimestral ou anual. Custos em `data/private_costs.json` com vigência explícita. Folha técnica e administrativo compartilhados são considerados uma única vez; rateio administrativo mensal por quantidade. Sem custo vigente ou uma das fontes, não há resultado conjunto completo. O custo conjunto permanece mesmo sem atendimentos; rateio por especialidade fica indisponível.
+
+Carga mensal disponível no servidor: envie o gerencial XLSX atualizado com Base, Base Convenios, Status Convenios, Conferencia e Custos no formato recebido. Escolha fonte e competência, confira prévia e confirme. Não são aceitas ainda planilhas operacionais em outros formatos. Cada fonte/competência é substituída integralmente preservando o histórico; reenvio idêntico não duplica. A prévia HTML é somente consulta e não carrega arquivos.
+
+As fórmulas do XLSX precisam ter valores calculados salvos. O importador verifica os valores gerenciais contra quantidade × valor e preserva divergências. Cabeçalhos e recebimento por fonte são validados. Atualização salarial não ocorre por importação de arquivo: a referência vigente é preservada e precisa de nova versão após fevereiro/2027.
+
+`data/private_initial.json` guarda uma extração sem nomes, prontuários ou recibos, com identificadores técnicos para deduplicação. Esses identificadores não tornam o conjunto anônimo: tratar como dados restritos. A fonte original é preservada localmente em `APN_DATA_DIR/source-archives` (ou `data/source-archives`), sem acesso por URL, excluída do Git e do pacote distribuído. Backup do ambiente deve incluir esse diretório e o banco. Os detalhes nominais e a edição de salários ainda não têm interface. `scripts/import_particulares.py` é para migração inicial, não para sobrescrever uma base em uso.
+
+Validação realizada: totais financeiros e pacientes por especialidade/mês conferidos com a planilha; vigência vencida, fonte ausente, mês sem movimento, rateio, substituição e reenvio idêntico testados. Aparência e upload real em navegador ainda precisam de homologação pelo usuário. Os totais de atendimento do módulo Particulares seguem o detalhado; não são forçados a coincidir com os consolidados usados pelo módulo de Produção.

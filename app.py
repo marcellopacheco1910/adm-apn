@@ -3,12 +3,13 @@ from pathlib import Path
 from urllib.parse import parse_qs
 from http import HTTPStatus
 import xlrd
+import private_module
 ROOT=Path(__file__).parent
 DB=Path(os.environ.get('APN_DATA_DIR',str(ROOT/'data')))/'balancetes.sqlite3'
 def read(name):return json.loads((ROOT/'data'/name).read_text())
 def connect():
  DB.parent.mkdir(parents=True,exist_ok=True);c=sqlite3.connect(DB,timeout=30);c.row_factory=sqlite3.Row
- c.execute('CREATE TABLE IF NOT EXISTS versions(id INTEGER PRIMARY KEY,period TEXT,digest TEXT,active INTEGER,payload TEXT)');return c
+ c.execute('CREATE TABLE IF NOT EXISTS versions(id INTEGER PRIMARY KEY,period TEXT,digest TEXT,active INTEGER,payload TEXT)');c.execute('CREATE TABLE IF NOT EXISTS private_versions(id INTEGER PRIMARY KEY,source TEXT,period TEXT,digest TEXT,active INTEGER,payload TEXT)');return c
 def save(period,rows,digest):
  with connect() as c:
   c.execute('BEGIN IMMEDIATE')
@@ -20,11 +21,32 @@ def seed():
  with connect() as c:
   if c.execute('SELECT COUNT(*) FROM versions').fetchone()[0]:return
  for p in read('initial.json')['periods']:save(p['period'],p['accounts'],p['digest'])
+def private_save(source,period,payload):
+ encoded=json.dumps(payload,ensure_ascii=False,sort_keys=True);digest=hashlib.sha256(encoded.encode()).hexdigest()
+ with connect() as c:
+  c.execute('BEGIN IMMEDIATE')
+  if c.execute('SELECT 1 FROM private_versions WHERE source=? AND period=? AND digest=? AND active=1',(source,period,digest)).fetchone():return False
+  c.execute('UPDATE private_versions SET active=0 WHERE source=? AND period=?',(source,period))
+  c.execute('INSERT INTO private_versions(source,period,digest,active,payload) VALUES(?,?,?,1,?)',(source,period,digest,encoded))
+ return True
+
+def private_dataset():
+ with connect() as c:
+  count=c.execute('SELECT COUNT(*) FROM private_versions').fetchone()[0]
+ if not count:
+  for source,periods in read('private_initial.json')['sources'].items():
+   for period,payload in periods.items():private_save(source,period,payload)
+ sources={'direct':{},'insurance':{}}
+ with connect() as c:
+  for r in c.execute('SELECT * FROM private_versions WHERE active=1 ORDER BY period'):sources[r['source']][r['period']]=json.loads(r['payload'])
+  history=[dict(r) for r in c.execute('SELECT id,source,period,active,digest FROM private_versions ORDER BY id DESC')]
+ return {'sources':sources,'monthly':private_module.summarize(sources),'history':history,'costs':read('private_costs.json')}
+
 def dataset():
  with connect() as c:
   rows=c.execute('SELECT * FROM versions WHERE active=1 ORDER BY period').fetchall()
   history=[dict(r) for r in c.execute('SELECT id,period,digest,active FROM versions ORDER BY id DESC')]
- return {'periods':[{'period':r['period'],'accounts':json.loads(r['payload']),'status':'Preliminar','version':r['id']} for r in rows],'history':history,'plan':read('plan.json')['accounts'],'production':read('faturamento.json')}
+ return {'private':private_dataset(),'periods':[{'period':r['period'],'accounts':json.loads(r['payload']),'status':'Preliminar','version':r['id']} for r in rows],'history':history,'plan':read('plan.json')['accounts'],'production':read('faturamento.json')}
 def parse_upload(raw,period):
  if not re.fullmatch(r'20\d\d-(0[1-9]|1[0-2])',period):raise ValueError('Competência inválida.')
  s=xlrd.open_workbook(file_contents=raw,logfile=io.StringIO()).sheet_by_index(0);known={r['code']:r for r in read('plan.json')['accounts']};rows=[];seen=set()
@@ -87,14 +109,27 @@ def application(env,start):
   if path not in files:return response(404,{'error':'Não encontrado'})
   name,kind=files[path];return response(200,(ROOT/'static'/name).read_bytes(),kind)
  if method!='POST':return response(405,{'error':'Método não permitido'})
- if path not in ['/api/preview','/api/import']:return response(404,{'error':'Não encontrado'})
+ if path not in ['/api/preview','/api/import','/api/private/preview','/api/private/import']:return response(404,{'error':'Não encontrado'})
  allowed=os.environ.get('APN_PUBLIC_ORIGIN') or 'http://'+env.get('HTTP_HOST','localhost')
  if os.environ.get('APN_ENV')=='production' and not os.environ.get('APN_PUBLIC_ORIGIN'):return response(503,{'error':'Endereço público não configurado.'})
  if env.get('HTTP_ORIGIN') and env['HTTP_ORIGIN']!=allowed:return response(403,{'error':'Origem não permitida.'})
  try:
   length=int(env.get('CONTENT_LENGTH') or 0)
   if not 0<length<=10*1024*1024:raise ValueError('Máximo de 10 MB por arquivo.')
-  raw=env['wsgi.input'].read(length);period=parse_qs(env.get('QUERY_STRING','')).get('period',[''])[0];rows=parse_upload(raw,period);alerts=warnings(period,rows)
+  raw=env['wsgi.input'].read(length);query=parse_qs(env.get('QUERY_STRING',''));period=query.get('period',[''])[0]
+  if path.startswith('/api/private/'):
+   source=query.get('source',[''])[0]
+   if source not in ['direct','insurance']:raise ValueError('Selecione a fonte: particulares diretos ou convênios.')
+   parsed=private_module.extract(raw)
+   if period not in parsed[source]:raise ValueError('A competência não está recebida para a fonte escolhida no gerencial.')
+   old=private_dataset()['sources'][source].get(period);payload=parsed[source][period];rows=payload['rows'];revenue=sum(r['value'] for r in rows)
+   alerts=[f"Linha {r['source_row']}: {alert}" for r in rows for alert in r['alerts']]
+   alerts.extend(f"Conferência de {r['specialty']}: diferença R$ {r['revenue_difference']} e procedimentos {r['quantity_difference']}." for r in payload['checks'] if abs(r['revenue_difference'] or 0)>.01 or r['quantity_difference'])
+   changed=None
+   if path=='/api/private/import':
+    private_module.archive(raw);changed=private_save(source,period,payload)
+   return response(200,{'rows':len(rows),'quantity':sum(r['quantity'] for r in rows),'revenue':round(revenue,2),'previous_revenue':round(sum(r['value'] for r in old['rows']),2) if old else None,'warnings':alerts,'changed':changed})
+  rows=parse_upload(raw,period);alerts=warnings(period,rows)
   changed=save(period,rows,hashlib.sha256(raw).hexdigest()) if path=='/api/import' else None
   return response(200,{'accounts':len(rows),'warnings':alerts,'changed':changed,'revenue':round(sum(r['credits']-r['debits'] for r in rows if r['leaf'] and r['classification'].startswith('3')),2),'expense':round(sum(r['debits']-r['credits'] for r in rows if r['leaf'] and r['classification'].startswith('4')),2)})
  except (ValueError,xlrd.XLRDError,IndexError) as e:return response(400,{'error':str(e)})
