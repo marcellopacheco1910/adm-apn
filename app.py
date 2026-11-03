@@ -72,7 +72,7 @@ def application(env,start):
  path=env.get('PATH_INFO','/');method=env.get('REQUEST_METHOD','GET')
  def response(status,body,kind='application/json'):
   raw=json.dumps(body,ensure_ascii=False).encode() if kind=='application/json' else body
-  start(f'{status} {HTTPStatus(status).phrase}',[('Content-Type',kind+'; charset=utf-8'),('Content-Length',str(len(raw))),('Cache-Control','no-store'),('X-Content-Type-Options','nosniff'),('X-Frame-Options','DENY'),('Content-Security-Policy',"default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'; base-uri 'self'")]);return [raw]
+  start(f'{status} {HTTPStatus(status).phrase}',[('Content-Type',kind+('; charset=utf-8' if kind.startswith('text/') or kind=='application/json' else '')),('Content-Length',str(len(raw))),('Cache-Control','no-store'),('X-Content-Type-Options','nosniff'),('X-Frame-Options','DENY'),('Content-Security-Policy',"default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'; base-uri 'self'")]);return [raw]
  if path=='/healthz':
   try:
    with connect() as c:c.execute('SELECT 1').fetchone()
@@ -83,7 +83,7 @@ def application(env,start):
   if not env.get('HTTP_X_MS_CLIENT_PRINCIPAL_ID'):return response(401,{'error':'Autenticação necessária.'})
  if method=='GET':
   if path=='/api/data':return response(200,dataset())
-  files={'/':('index.html','text/html'),'/app.js':('app.js','text/javascript'),'/style.css':('style.css','text/css')}
+  files={'/':('index.html','text/html'),'/app.js':('app.js','text/javascript'),'/style.css':('style.css','text/css'),'/logo-pestalozzi.png':('logo-pestalozzi.png','image/png')}
   if path not in files:return response(404,{'error':'Não encontrado'})
   name,kind=files[path];return response(200,(ROOT/'static'/name).read_bytes(),kind)
  if method!='POST':return response(405,{'error':'Método não permitido'})

@@ -31,7 +31,7 @@ Balancetes de janeiro a agosto são preliminares. Dados faltantes não equivalem
 
 ## Logo
 
-Selecionar logomarca aplica o PNG/JPG/WebP no navegador. Na prévia offline, Baixar prévia com logo incorpora a imagem ao HTML distribuído. A logo original ainda não está incorporada aos arquivos do servidor: os envios anteriores chegaram como imagem visível sem arquivo acessível.
+A logomarca original está incorporada em `static/logo-pestalozzi.png`, extraída sem alteração do HTML enviado pelo usuário. Ela aparece automaticamente no topo do menu, em fundo branco, preservando as proporções. A prévia autossuficiente incorpora os mesmos bytes PNG. Selecionar logomarca permite testar outra imagem no navegador; Baixar prévia com logo inclui a imagem escolhida na cópia HTML.
 
 ## Azure e acesso
 
